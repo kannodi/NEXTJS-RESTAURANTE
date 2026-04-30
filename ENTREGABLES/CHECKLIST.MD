@@ -1,4 +1,5 @@
 ---
+Practicantes: Paolo y Joel
 sala: I-SALA5
 curso: Next.js
 dia: 1
