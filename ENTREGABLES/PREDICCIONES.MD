@@ -36,3 +36,14 @@
 - **`next.config.ts`**: 
   - **Paolo:** Es una config dedicada a nextjs, ayuda a config dominios permitidos para imagenes externas o añadir variables de entorno que el server necesita
 
+
+# Predicción B
+
+## NavBar y adaptación a Next.js
+*El NavBar de React Día 1 usaba NavLink con activeClassName o className con función. ¿Eso va a funcionar en Next.js sin cambios, o necesita adaptación?*
+
+- **¿NavLink funciona en Next.js?**
+  - **Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
+  
+- **¿Qué import cambia?**
+  - **Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
