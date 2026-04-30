@@ -24,17 +24,27 @@
 
 - **`app/layout.tsx`**: 
   - **Paolo:** Aqui  puede ir un navbar/header/o footer pero afuera de children para que se mantenga estatico y dentro de children iran las paginas/rutas dinamicas.
+  - **Joel:** Es el componente que envuelve a todos los demas componentes para armar la estructura de la pagina, puede tener estilos globales, metadatos, etc.
 
 - **`app/page.tsx`**: 
   - **Paolo:** Dentro va la pagina en si, todo lo que queremos dibujar dependiendo la pagina
+  - **Joel:** Es la ruta principal de la aplicacion, aqui es donde se muestra la interfaz visual de la pagina.
+
 - **`app/globals.css`**: 
   - **Paolo:** Aqui dentro se aplican los estilos generales para todo, un h1, un contenedor, algun div.Estos estilos se aplican para todas las rutas.
+  - **Joel:** Es el archivo donde se definen los estilos globales de la aplicacion.
+
 - **`public/`**: 
   - **Paolo:** Aca dentro van archivos, imagenes o videos que son para los usuarios que visiten la pagina, todos pueden acceder.
+  - **Joel:** Es la carpeta donde se guardan los archivos estáticos de la aplicacion.
+
 - **`tsconfig.json`**: 
   - **Paolo:** Aun lleva configs de ts como en el anterior proyecto, pero con la diferencia que ahora lleva unas para nextjs especificas para el app router y server components
+  - **Joel:** Es el archivo donde se definen las configuraciones del compilador de TypeScript.
+  
 - **`next.config.ts`**: 
   - **Paolo:** Es una config dedicada a nextjs, ayuda a config dominios permitidos para imagenes externas o añadir variables de entorno que el server necesita
+  - **Joel:** Es el archivo donde se definen las configuraciones de Next.js.
 
 
 # Predicción B

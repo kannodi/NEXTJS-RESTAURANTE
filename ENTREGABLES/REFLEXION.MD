@@ -4,16 +4,12 @@
 
 ### 1. ¿La estructura del proyecto fue lo que predijiste?
 **Paolo:** Si, fue lo que esperaba, la carpeta app, public y todas las que tiene, lo necesario para iniciar un proyecto con next.js
+**Joel:** Si, la carpeta app, public y todas las que tiene albergan lo necesario.
 
 ### 2. ¿Qué archivo te sorprendió más y por qué?
 **Paolo:** Un poco el layout, poco complejo de entender, pero con practica sera sencillo de comprender, ya que el concepto ya lo entendí
+**Joel:** El archivo layout.tsx fue lo que mas me llamo la atencion, ya que es un componente que envuelve a todos los demas componentes, lo que permite reutilizar codigo y mantener una estructura consistente
 
 ### 3. Aprendizaje principal del Bloque A
 **Paolo:** Aprendimos a iniciar un proyecto con next.js y a entender su estructura base, ademas de limpiar los archivos que no necesitamos. Con nextjs podemos crear paginas web mas rapidas gracias a que el servidor precarga y luego la recibimos
-
-
-## SECCIÓN B: Layout raíz y NavBar migrado
-
-### 1. Directiva 'use client'
-*¿Por qué `use client` es necesario en NavBar pero no en layout.tsx? ¿Qué diferencia hay?*
-**Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
+**Joel:** Aprendi que en nextjs tenemos rutas por defecto, lo que hace que sea mas facil crear paginas, ademas de que podemos usar componentes de react para crear paginas, lo que hace que sea mas facil reutilizar codigo
