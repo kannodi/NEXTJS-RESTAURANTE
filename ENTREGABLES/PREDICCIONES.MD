@@ -53,7 +53,9 @@
 *El NavBar de React Día 1 usaba NavLink con activeClassName o className con función. ¿Eso va a funcionar en Next.js sin cambios, o necesita adaptación?*
 
 - **¿NavLink funciona en Next.js?**
-  - **Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
-  
+
+  **Paolo:** No, no funciona
+
 - **¿Qué import cambia?**
-  - **Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
+
+  **Paolo:** Ahora hacemos uso del usePathname lo importamos de next/navigation y lo usamos con una constante pasandole el usePathname, esto le da el valor de la ruta actual y con este valor lo comparamos, si es igual a la ruta en la que estamos entonces ponte de tal color, sino ponte gris.
