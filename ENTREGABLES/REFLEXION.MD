@@ -13,3 +13,9 @@
 ### 3. Aprendizaje principal del Bloque A
 **Paolo:** Aprendimos a iniciar un proyecto con next.js y a entender su estructura base, ademas de limpiar los archivos que no necesitamos. Con nextjs podemos crear paginas web mas rapidas gracias a que el servidor precarga y luego la recibimos
 **Joel:** Aprendi que en nextjs tenemos rutas por defecto, lo que hace que sea mas facil crear paginas, ademas de que podemos usar componentes de react para crear paginas, lo que hace que sea mas facil reutilizar codigo
+
+## SECCIÓN B: Layout raíz y NavBar migrado
+
+### 1. Directiva 'use client'
+*¿Por qué `use client` es necesario en NavBar pero no en layout.tsx? ¿Qué diferencia hay?*
+**Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
