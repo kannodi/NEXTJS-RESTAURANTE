@@ -23,15 +23,16 @@
 *Anota qué crees que hace cada uno de estos archivos:*
 
 - **`app/layout.tsx`**: 
-  - `[ESCRIBE AQUI PARA QUE SIRVE Y QUE CREES QUE TIENE ADENTRO]`
+  - **Paolo:** Aqui  puede ir un navbar/header/o footer pero afuera de children para que se mantenga estatico y dentro de children iran las paginas/rutas dinamicas.
+
 - **`app/page.tsx`**: 
-  - `[ESCRIBE AQUI A QUE RUTA CREES QUE CORRESPONDE]`
+  - **Paolo:** Dentro va la pagina en si, todo lo que queremos dibujar dependiendo la pagina
 - **`app/globals.css`**: 
-  - `[ESCRIBE AQUI CUANDO CREES QUE SE APLICA]`
+  - **Paolo:** Aqui dentro se aplican los estilos generales para todo, un h1, un contenedor, algun div.Estos estilos se aplican para todas las rutas.
 - **`public/`**: 
-  - `[ESCRIBE AQUI QUE CREES QUE VA AQUI]`
+  - **Paolo:** Aca dentro van archivos, imagenes o videos que son para los usuarios que visiten la pagina, todos pueden acceder.
 - **`tsconfig.json`**: 
-  - `[ESCRIBE AQUI QUE DIFERENCIAS ESPERAS VER CON EL DE REACT]`
+  - **Paolo:** Aun lleva configs de ts como en el anterior proyecto, pero con la diferencia que ahora lleva unas para nextjs especificas para el app router y server components
 - **`next.config.ts`**: 
-  - `[ESCRIBE AQUI PARA QUE CREES QUE SIRVE]`
+  - **Paolo:** Es una config dedicada a nextjs, ayuda a config dominios permitidos para imagenes externas o añadir variables de entorno que el server necesita
 
