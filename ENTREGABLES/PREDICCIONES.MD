@@ -55,7 +55,11 @@
 - **¿NavLink funciona en Next.js?**
 
   **Paolo:** No, no funciona
+  
+  **Joel:** No, el componente NavLink no está disponible en next/navigation.
 
 - **¿Qué import cambia?**
 
   **Paolo:** Ahora hacemos uso del usePathname lo importamos de next/navigation y lo usamos con una constante pasandole el usePathname, esto le da el valor de la ruta actual y con este valor lo comparamos, si es igual a la ruta en la que estamos entonces ponte de tal color, sino ponte gris.
+
+  **Joel:** Ahora recurrimos al usePathname de next/navigation. Con esto sabremos en que ruta nos encontramos.
