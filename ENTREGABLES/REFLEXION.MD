@@ -18,4 +18,5 @@
 
 ### 1. Directiva 'use client'
 *¿Por qué `use client` es necesario en NavBar pero no en layout.tsx? ¿Qué diferencia hay?*
-**Respuesta:** `[ESCRIBE AQUI TU RESPUESTA]`
+**Respuesta:** 
+**Paolo:** Es necesario porque el NavBar usa el hook `usePathname()` para detectar la ruta activa, y los hooks solo funcionan en componentes de cliente (navegador). En cambio, `layout.tsx` es un componente de servidor porque solo maneja la estructura estática y no necesita interactividad ni hooks.
