@@ -68,7 +68,7 @@
 
 # 1. Creación de Carpetas
 *¿Cuántas carpetas van a crear en este bloque? Lista los nombres de las carpetas antes de ejecutarlas.*
-**Paolo:** 
+**Paolo:** Crearemos 3 carpetas dentro de app/. Los nombres serán mesas, menu y carrito
 
 **Joel:**
 3 carpetas
@@ -78,7 +78,7 @@
 
 # 2. Archivos de Ruta
 *¿Cuáles son las rutas completas de los archivos `page.tsx` que deben crear?*
-**Paolo:** 
+**Paolo:** Las rutas exactas son: app/mesas/page.tsx, app/menu/page.tsx y app/carrito/page.tsx
 
 **Joel:** 
 son 3 archivos:
