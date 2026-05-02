@@ -100,3 +100,14 @@ Ahora los parámetros llegan como props. Esto significa que el componente de pá
 **Paolo:**  Es string ya que puede variar su valor, una id puede ser numeros y letras
 
 **Joel:** Por defecto, son strings. Incluso si la URL contiene solo números, Next.js los trata como cadenas de texto (string).
+
+## Predicción E: not-found.tsx y verificación TypeScript
+
+### 1. Convención de Nombres
+*¿El archivo `not-found.tsx` fue el que esperabas, o esperabas un nombre diferente? ¿Crees que funcionaría si se llamara `404.tsx`?*
+**Paolo:** [Tu respuesta]
+**Joel:** [Tu respuesta]
+### 2. Errores TypeScript
+*Al ejecutar `npx tsc --noEmit`, ¿esperas que salgan errores o que el output esté vacío?*
+**Paolo:** [Tu respuesta]
+**Joel:** [Tu respuesta]

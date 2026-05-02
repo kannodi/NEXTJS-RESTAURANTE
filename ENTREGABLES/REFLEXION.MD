@@ -40,3 +40,15 @@ Si, ya lo entiendó. Lo mas revelador fue ver que ya no necesitamos mas que las 
 **Paolo:** Al ser un prop hace que el componente sea un server component, de las ventajas de nextjs, lo que implica que el server procesara antes el prop antes de enviarselo al cliente/navegador, mejorando mucho mas la velocidad
 
 **Joel:** 
+
+## SECCIÓN E: not-found.tsx y verificación TypeScript
+### 1. Personalización del 404
+*¿Qué ventajas ves en tener un archivo `not-found.tsx` propio en lugar de la página blanca que trae Next.js por defecto?*
+**Respuesta:**
+**Paolo:** [Tu respuesta]
+**Joel:** [Tu respuesta]
+### 2. Disciplina con TypeScript
+*El documento dice "0 errores reales" y prohíbe usar `@ts-ignore`. ¿Por qué es importante mantener esta disciplina en un proyecto profesional en lugar de simplemente silenciar los errores?*
+**Respuesta:**
+**Paolo:** [Tu respuesta]
+**Joel:** [Tu respuesta]
