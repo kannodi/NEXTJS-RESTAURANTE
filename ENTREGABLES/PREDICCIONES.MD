@@ -93,9 +93,10 @@ son 3 archivos:
 **Paolo:** Como prop, gracias a los corchetes [mesaId] 
 
 **Joel:** 
+Ahora los parámetros llegan como props. Esto significa que el componente de página recibe un objeto `params` directamente en sus props, lo cual simplifica la forma de acceder a estos valores.
 
 # 2. Tipo de Dato
 *¿Es string o puede ser number?*
 **Paolo:**  Es string ya que puede variar su valor, una id puede ser numeros y letras
 
-**Joel:**
+**Joel:** Por defecto, son strings. Incluso si la URL contiene solo números, Next.js los trata como cadenas de texto (string).
