@@ -106,8 +106,8 @@ Ahora los parámetros llegan como props. Esto significa que el componente de pá
 ### 1. Convención de Nombres
 *¿El archivo `not-found.tsx` fue el que esperabas, o esperabas un nombre diferente? ¿Crees que funcionaría si se llamara `404.tsx`?*
 **Paolo:** No lo esperaba diferente, anteriormente ya hicimos pages para mostrar pagina no encontra/url no encontrada.Lo que cambio es que en nextJs hay nombres específicos, para este caso el not found tsx esta reservado para la pagina no encontrada, si usamos 404 tsx no funcionaria 
-**Joel:** [Tu respuesta]
+**Joel:** Yo creo que cualquiera de los dos nombres (not-found.tsx o 404.tsx) funcionaria.
 ### 2. Errores TypeScript
 *Al ejecutar `npx tsc --noEmit`, ¿esperas que salgan errores o que el output esté vacío?*
 **Paolo:** No, ya que la pagina de error esta llena
-**Joel:** [Tu respuesta]
+**Joel:** Al estar usando TypeScript y no tener errores en el código, no deberia salir ningun error.
