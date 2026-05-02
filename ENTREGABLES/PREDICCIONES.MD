@@ -86,4 +86,16 @@ son 3 archivos:
 - app/menu/page.tsx
 - app/carrito/page.tsx
 
+## Predicción D: Ruta dinámica /mesa/[mesaId] y Link en NavBar
 
+# 1. Recepción de Parámetros
+*¿Cómo llega el parámetro mesaId al componente page.tsx? ¿Como prop, como hook, o de otra forma?*
+**Paolo:** 
+
+**Joel:** 
+
+# 2. Tipo de Dato
+*¿Es string o puede ser number?*
+**Paolo:** 
+
+**Joel:**

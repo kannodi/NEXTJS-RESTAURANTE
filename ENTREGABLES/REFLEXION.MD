@@ -31,3 +31,12 @@
 
 **Joel:** 
 Si, ya lo entiendó. Lo mas revelador fue ver que ya no necesitamos mas que las carpetas y los archivos `page.tsx` para que el proyecto funcione.
+
+## SECCIÓN D: Ruta dinámica /mesa/[mesaId] y Link en NavBar
+
+### 1. Parámetros como Props vs Hooks
+*En React usabas `useParams()` (un hook). En Next.js `params` llega como una propiedad (prop). ¿Esperabas esto? ¿Qué implicaciones tiene que sea un prop en lugar de un hook?*
+**Respuesta:**
+**Paolo:** 
+
+**Joel:** 
