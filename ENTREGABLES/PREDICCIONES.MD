@@ -63,3 +63,19 @@
   **Paolo:** Ahora hacemos uso del usePathname lo importamos de next/navigation y lo usamos con una constante pasandole el usePathname, esto le da el valor de la ruta actual y con este valor lo comparamos, si es igual a la ruta en la que estamos entonces ponte de tal color, sino ponte gris.
 
   **Joel:** Ahora recurrimos al usePathname de next/navigation. Con esto sabremos en que ruta nos encontramos.
+
+## Predicción C: Mapear las rutas del restaurante como carpetas
+
+# 1. Creación de Carpetas
+*¿Cuántas carpetas van a crear en este bloque? Lista los nombres de las carpetas antes de ejecutarlas.*
+**Paolo:** 
+
+**Joel:** 
+
+# 2. Archivos de Ruta
+*¿Cuáles son las rutas completas de los archivos `page.tsx` que deben crear?*
+**Paolo:** 
+
+**Joel:** 
+
+

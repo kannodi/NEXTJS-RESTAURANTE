@@ -21,3 +21,12 @@
 **Respuesta:** 
 **Paolo:** Es necesario porque el NavBar usa el hook `usePathname()` para detectar la ruta activa, y los hooks solo funcionan en componentes de cliente (navegador). En cambio, `layout.tsx` es un componente de servidor porque solo maneja la estructura estática y no necesita interactividad ni hooks.
 **Joel:** En navbar es necesario su uso para poder usar funciones de navegadores como el usePathname(), mientras que en layout.tsx no es necesario ya que es un componente de servidor.
+
+## SECCIÓN C: Mapear las rutas del restaurante como carpetas
+
+### 1. El "Clic" del App Router
+*Viendo la tabla de comparación entre React Router y App Router: ¿Fue este el momento donde la lógica de Next.js "hizo clic" en tu cabeza? ¿Qué parte de esta conversión fue la más reveladora?*
+**Respuesta:**
+**Paolo:** 
+
+**Joel:** 
