@@ -46,9 +46,9 @@ Si, ya lo entiendó. Lo mas revelador fue ver que ya no necesitamos mas que las 
 *¿Qué ventajas ves en tener un archivo `not-found.tsx` propio en lugar de la página blanca que trae Next.js por defecto?*
 **Respuesta:**
 **Paolo:** Es mas intuitivo para el usuario, no se perdera y sabra que hacer.
-**Joel:** [Tu respuesta]
+**Joel:** Es personalizable y mejora la experiencia del usuario.
 ### 2. Disciplina con TypeScript
 *El documento dice "0 errores reales" y prohíbe usar `@ts-ignore`. ¿Por qué es importante mantener esta disciplina en un proyecto profesional en lugar de simplemente silenciar los errores?*
 **Respuesta:**
 **Paolo:** Ya que con el ts ignore, ignoramos el error de typescript, trabajariamos con problemas ocultos
-**Joel:** [Tu respuesta]
+**Joel:** Esto se debe a que si ignoramos los errores de typescript, podemos tener errores en el código que no se detectan, lo que puede causar problemas en el futuro.
