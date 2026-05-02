@@ -90,12 +90,12 @@ son 3 archivos:
 
 # 1. Recepción de Parámetros
 *¿Cómo llega el parámetro mesaId al componente page.tsx? ¿Como prop, como hook, o de otra forma?*
-**Paolo:** 
+**Paolo:** Como prop, gracias a los corchetes [mesaId] 
 
 **Joel:** 
 
 # 2. Tipo de Dato
 *¿Es string o puede ser number?*
-**Paolo:** 
+**Paolo:**  Es string ya que puede variar su valor, una id puede ser numeros y letras
 
 **Joel:**
