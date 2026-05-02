@@ -27,7 +27,7 @@
 ### 1. El "Clic" del App Router
 *Viendo la tabla de comparación entre React Router y App Router: ¿Fue este el momento donde la lógica de Next.js "hizo clic" en tu cabeza? ¿Qué parte de esta conversión fue la más reveladora?*
 **Respuesta:**
-**Paolo:** 
+**Paolo:** El ya no usar app.tsx no lo llenamos de routes, ahora solo usamos la estructura de carpetas, para hacer las pages dentro
 
 **Joel:** 
 Si, ya lo entiendó. Lo mas revelador fue ver que ya no necesitamos mas que las carpetas y los archivos `page.tsx` para que el proyecto funcione.
