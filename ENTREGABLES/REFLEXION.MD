@@ -37,6 +37,6 @@ Si, ya lo entiendó. Lo mas revelador fue ver que ya no necesitamos mas que las 
 ### 1. Parámetros como Props vs Hooks
 *En React usabas `useParams()` (un hook). En Next.js `params` llega como una propiedad (prop). ¿Esperabas esto? ¿Qué implicaciones tiene que sea un prop en lugar de un hook?*
 **Respuesta:**
-**Paolo:** 
+**Paolo:** Al ser un prop hace que el componente sea un server component, de las ventajas de nextjs, lo que implica que el server procesara antes el prop antes de enviarselo al cliente/navegador, mejorando mucho mas la velocidad
 
 **Joel:** 
