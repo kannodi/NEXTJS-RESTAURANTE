@@ -70,12 +70,20 @@
 *¿Cuántas carpetas van a crear en este bloque? Lista los nombres de las carpetas antes de ejecutarlas.*
 **Paolo:** 
 
-**Joel:** 
+**Joel:**
+3 carpetas
+- app/mesas
+- app/menu
+- app/carrito
 
 # 2. Archivos de Ruta
 *¿Cuáles son las rutas completas de los archivos `page.tsx` que deben crear?*
 **Paolo:** 
 
 **Joel:** 
+son 3 archivos:
+- app/mesas/page.tsx
+- app/menu/page.tsx
+- app/carrito/page.tsx
 
 

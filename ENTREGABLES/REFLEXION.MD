@@ -30,3 +30,4 @@
 **Paolo:** 
 
 **Joel:** 
+Si, ya lo entiendó. Lo mas revelador fue ver que ya no necesitamos mas que las carpetas y los archivos `page.tsx` para que el proyecto funcione.
