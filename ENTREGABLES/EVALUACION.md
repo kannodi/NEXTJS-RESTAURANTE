@@ -14,7 +14,7 @@
 **Joel:** NavBar necesita 'use client' porque usa el hook usePathname() para detectar la ruta activa, y los hooks solo funcionan en componentes de cliente (navegador). En cambio, page.tsx de MesasPage no necesita esa directiva porque es un componente de servidor porque solo maneja la estructura estática y no necesita interactividad ni hooks.
 **Paolo:** Con el use client lo declaramos como un componente de lado del cliente y podra usar hooks
 5. Si el backend cambia el modelo de Mesa y agrega un campo nuevo, ¿en cuántos archivos de restaurante-nextjs hay que actualizar tipos hoy?
-**Joel:** En No se harian cambios actualmente. Actualmente (en el Día 1) no tenemos definido el tipo o modelo `Mesa` ni estamos haciendo fetching de datos en el frontend (eso se conectará en el Día 4, como indican los placeholders). Solo tenemos la estructura de rutas y la interfaz `MesaDetailProps` para los parámetros de la URL, por lo que un cambio en el modelo del backend hoy no requiere actualizar tipos en este proyecto de Next.js.
+**Joel:** Dependiendo de cuanto campos cambien se tendrian que crear o modificar los tipos de objetos que se usan para esa mesa.
 **Paolo**  Si ahora varian los modelos de mesa, se agregaria un nuevo tipo por cada modelo nuevo
 
 # 🏆  Pregunta bonus — demostrar en vivo (vale 2 pts extra)
