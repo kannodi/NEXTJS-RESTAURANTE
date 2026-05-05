@@ -12,10 +12,10 @@
 1. MesasPage llama a getMesas() con await. Si el backend tarda 2 segundos en responder, ¿qué ve el usuario durante esos 2 segundos? ¿Una pantalla en blanco, el layout con NavBar, o el skeleton de loading.tsx?
 
 - El usuario ve durante el fetch: 
-    **Paolo:** 
+    **Paolo:** El navbar lo vera, y abajo si lo adecuamos como queremos, podemos reemplazar la pantalla blanca que tiene por defecto con un skeleton loader, este tiene el estilo de la pagina pero sin datos, ideal para que el usuario no se pierda
     **Joel:** 
 - ¿Quién muestra el loading — MesasPage o loading.tsx? 
-    **Paolo:** 
+    **Paolo:** Mesaspage no podria mostrarlo el muestra los datos una sola vez y es un server component, loading.tsx se encargaria de mostrarlo cuando aun se esta realizando el fetch
     **Joel:** 
 
 
