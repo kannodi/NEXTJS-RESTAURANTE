@@ -34,5 +34,6 @@ export class Pedido {
     estado: EstadoPedido;
     items: PedidoItem[];
     total: number;
-    createdAt: string;
+    createdAt?: string;
+    updatedAt?: string;
 }

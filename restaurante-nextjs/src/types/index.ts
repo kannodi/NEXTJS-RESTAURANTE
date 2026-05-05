@@ -44,4 +44,5 @@ export interface Pedido {
     items: PedidoItem[];
     total: number;
     createdAt: string;
+    updatedAt?: string;
 }

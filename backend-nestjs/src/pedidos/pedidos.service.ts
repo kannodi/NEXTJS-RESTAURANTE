@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Pedido } from '../types';
+import { Pedido, EstadoPedido } from '../types';
 
 @Injectable()
 export class PedidosService {
@@ -24,5 +24,14 @@ export class PedidosService {
   create(pedido: Pedido): Pedido {
     this.pedidos.push(pedido);
     return pedido;
+  }
+
+  updateEstado(id: string, estado: EstadoPedido): Pedido | null {
+    const index = this.pedidos.findIndex((p) => p._id === id);
+    if (index !== -1) {
+      this.pedidos[index].estado = estado;
+      return this.pedidos[index];
+    }
+    return null;
   }
 }
