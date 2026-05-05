@@ -1,6 +1,7 @@
 import { Controller, Get, Post, Body, Patch, Param, NotFoundException } from '@nestjs/common';
 import { PedidosService } from './pedidos.service';
-import { Pedido, EstadoPedido } from '../types';
+import { Pedido } from '../types';
+import type { EstadoPedido } from '../types';
 
 @Controller('pedidos')
 export class PedidosController {
@@ -19,9 +20,9 @@ export class PedidosController {
   @Patch(':id/estado')
   cambiarEstado(
     @Param('id') id: string,
-    @Body('estado') estado: EstadoPedido,
+    @Body('estado') estado: string,
   ): Pedido {
-    const pedido = this.pedidosService.updateEstado(id, estado);
+    const pedido = this.pedidosService.updateEstado(id, estado as EstadoPedido);
     if (!pedido) {
       throw new NotFoundException(`Pedido con ID ${id} no encontrado`);
     }
