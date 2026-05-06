@@ -10,5 +10,5 @@
 
 ## ⏱  Feedback 30 segundos — Bloque C
 • ¿Fue intuitivo que loading.tsx y error.tsx son archivos especiales que Next.js detecta por nombre?
-    **Paolo:** 
+    **Paolo:** Si, segun tengo entendido nextjs se encarga de ambos automaticamente, pero aun tengo mas dudas, como lo hace exactamente y bajo que reglas, eso seguire averiguando
     **Joel:** 
