@@ -21,9 +21,9 @@
 # Predicción C - ✍  Antes de ejecutar — escribe en predicciones.md
 1. ¿error.tsx captura errores de JavaScript (como un error de sintaxis en el código) o solo errores del fetch (como un 500 del backend)?
 - error.tsx captura: 
-    **Paolo:** 
-    **Joel:** 
+    **Paolo:** La page error muestra errores de js en el momento de ejecucion del codigo en el cliente/la app, tambien puede recibir errores del fetch 
+    **Joel:**  
 - ¿Qué pasa si getMesas() lanza un Error con mensaje "503"? 
-    **Paolo:** 
+    **Paolo:** Si getmesas lanza ese error, tenemos que mandarlo a la web para que el cliente se entere
     **Joel:** 
 
