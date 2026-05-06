@@ -13,9 +13,9 @@
 
 - El usuario ve durante el fetch: 
     **Paolo:** El navbar lo vera, y abajo si lo adecuamos como queremos, podemos reemplazar la pantalla blanca que tiene por defecto con un skeleton loader, este tiene el estilo de la pagina pero sin datos, ideal para que el usuario no se pierda
-    **Joel:** 
+    **Joel:** El usuario veria el navbar y la pantalla en blanco dado que el await todavia no ha cargado las mesas.
 - ¿Quién muestra el loading — MesasPage o loading.tsx? 
     **Paolo:** Mesaspage no podria mostrarlo el muestra los datos una sola vez y es un server component, loading.tsx se encargaria de mostrarlo cuando aun se esta realizando el fetch
-    **Joel:** 
+    **Joel:** El archivo loading.tsx, ya que MesasPage es un server component y no puede mostrar el loading
 
 
