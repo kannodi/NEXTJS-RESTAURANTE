@@ -1,4 +1,3 @@
-// app/components/NavBar.tsx
 'use client'; // NavBar usa usePathname (hook) → necesita ser Client Component
 
 import Link from 'next/link';
