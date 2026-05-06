@@ -22,8 +22,8 @@
 1. ¿error.tsx captura errores de JavaScript (como un error de sintaxis en el código) o solo errores del fetch (como un 500 del backend)?
 - error.tsx captura: 
     **Paolo:** 
-    **Joel:** 
+    **Joel:** Captura ambos: errores de ejecución de JavaScript (como fallos al renderizar) y errores del fetch (si usamos un throw). No captura errores de sintaxis, ya que esos rompen la aplicación antes en la compilación.
 - ¿Qué pasa si getMesas() lanza un Error con mensaje "503"? 
     **Paolo:** 
-    **Joel:** 
+    **Joel:** Si getMesas() lanza un error 503, error.tsx lo capturaria y lo mostraria en pantalla.
 
