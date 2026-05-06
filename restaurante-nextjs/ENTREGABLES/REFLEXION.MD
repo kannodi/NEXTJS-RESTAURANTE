@@ -8,3 +8,7 @@
     **Paolo:** no, es demasiado sencillo en nextjs, no se tiene que hacer nada del useEffect y solo esperar a que carguen los datos con un simple await
     **Joel:** Fue sorprendente y más sencillo. En React estábamos acostumbrados a lidiar con dependencias de useEffect y estados de carga, pero hacerlo directamente en el Server Component se siente más natural y reduce mucho el código.
 
+## ⏱  Feedback 30 segundos — Bloque C
+• ¿Fue intuitivo que loading.tsx y error.tsx son archivos especiales que Next.js detecta por nombre?
+    **Paolo:** 
+    **Joel:** 
