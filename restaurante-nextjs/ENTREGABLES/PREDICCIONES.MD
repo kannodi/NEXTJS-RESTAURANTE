@@ -28,13 +28,13 @@
     **Joel:** Si getMesas() lanza un error 503, error.tsx lo capturaria y lo mostraria en pantalla.
 # Predicción D - ✍  Antes de ejecutar — escribe en predicciones.md
 1. ¿MenuPage va a necesitar loading.tsx y error.tsx también? Decide antes de empezar si los vas a crear o no, y anota la razón.
-    **Paolo:** 
+    **Paolo:** Si, ya que no hereda ningun error de app, tendriamos que darles un skeleton especial y un error al hace getPlatos especial. creamos el loading y el error en la carpeta de menu
     **Joel:** 
 2. ¿Crear loading.tsx en /menu? SÍ / NO — razón: 
-    **Paolo:** 
+    **Paolo:**  SI, haremos un skeleton especial para los platos
     **Joel:** 
 3. ¿Crear error.tsx en /menu? SÍ / NO — razón: 
-    **Paolo:** 
+    **Paolo:**  SI, si getPlatos falla, muestra error de que los platos fallaron
     **Joel:** 
 
 
