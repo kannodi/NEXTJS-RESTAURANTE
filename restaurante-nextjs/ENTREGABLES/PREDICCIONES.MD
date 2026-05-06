@@ -29,13 +29,13 @@
 # Predicción D - ✍  Antes de ejecutar — escribe en predicciones.md
 1. ¿MenuPage va a necesitar loading.tsx y error.tsx también? Decide antes de empezar si los vas a crear o no, y anota la razón.
     **Paolo:** Si, ya que no hereda ningun error de app, tendriamos que darles un skeleton especial y un error al hace getPlatos especial. creamos el loading y el error en la carpeta de menu
-    **Joel:** 
+    **Joel:** Si, Menupage los necesitara porque el fetch es local, no hereda nada del app/page.tsx.
 2. ¿Crear loading.tsx en /menu? SÍ / NO — razón: 
     **Paolo:**  SI, haremos un skeleton especial para los platos
-    **Joel:** 
+    **Joel:** SI, para que se muestren los platos.
 3. ¿Crear error.tsx en /menu? SÍ / NO — razón: 
     **Paolo:**  SI, si getPlatos falla, muestra error de que los platos fallaron
-    **Joel:** 
+    **Joel:** SI, para que se muestre el error si getPlatos falla.
 
 
 
