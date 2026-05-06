@@ -18,4 +18,12 @@
     **Paolo:** Mesaspage no podria mostrarlo el muestra los datos una sola vez y es un server component, loading.tsx se encargaria de mostrarlo cuando aun se esta realizando el fetch
     **Joel:** El archivo loading.tsx, ya que MesasPage es un server component y no puede mostrar el loading
 
+# Predicción C - ✍  Antes de ejecutar — escribe en predicciones.md
+1. ¿error.tsx captura errores de JavaScript (como un error de sintaxis en el código) o solo errores del fetch (como un 500 del backend)?
+- error.tsx captura: 
+    **Paolo:** 
+    **Joel:** 
+- ¿Qué pasa si getMesas() lanza un Error con mensaje "503"? 
+    **Paolo:** 
+    **Joel:** 
 
