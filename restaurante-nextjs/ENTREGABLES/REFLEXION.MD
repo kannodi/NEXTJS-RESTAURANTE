@@ -5,6 +5,6 @@
     
 ## ⏱  Feedback 30 segundos — Bloque B
 • ¿El fetch en un Server Component sin useEffect fue más o menos complicado de lo que esperabas?
-    **Paolo:**
+    **Paolo:** no, es demasiado sencillo en nextjs, no se tiene que hacer nada del useEffect y solo esperar a que carguen los datos con un simple await
     **Joel:** Fue sorprendente y más sencillo. En React estábamos acostumbrados a lidiar con dependencias de useEffect y estados de carga, pero hacerlo directamente en el Server Component se siente más natural y reduce mucho el código.
 
