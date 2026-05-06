@@ -26,4 +26,16 @@
 - ¿Qué pasa si getMesas() lanza un Error con mensaje "503"? 
     **Paolo:** Si getmesas lanza ese error, tenemos que mandarlo a la web para que el cliente se entere
     **Joel:** Si getMesas() lanza un error 503, error.tsx lo capturaria y lo mostraria en pantalla.
+# Predicción D - ✍  Antes de ejecutar — escribe en predicciones.md
+1. ¿MenuPage va a necesitar loading.tsx y error.tsx también? Decide antes de empezar si los vas a crear o no, y anota la razón.
+    **Paolo:** 
+    **Joel:** 
+2. ¿Crear loading.tsx en /menu? SÍ / NO — razón: 
+    **Paolo:** 
+    **Joel:** 
+3. ¿Crear error.tsx en /menu? SÍ / NO — razón: 
+    **Paolo:** 
+    **Joel:** 
+
+
 
