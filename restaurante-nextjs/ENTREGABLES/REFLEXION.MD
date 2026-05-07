@@ -16,4 +16,5 @@
 ## ⏱  Feedback 30 segundos — Bloque D
 • ¿Qué haría distinto en PlatoCard cuando llegue el Context en Día 3? ¿Qué línea va a cambiar?
     **Paolo:** 
-    **Joel:** 
+    **Joel:** Lo que cambiaría sería la función handleAgregar. Seguiríamos usando setAgregado para mantener el feedback visual rápido (el check de agregado por unos segundos), pero añadiríamos la ejecución de la función agregarPlato(plato) proveniente del Context global para registrar efectivamente el pedido.
+    
