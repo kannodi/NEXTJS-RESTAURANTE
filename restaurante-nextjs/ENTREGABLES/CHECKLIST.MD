@@ -1,22 +1,21 @@
 ---
 sala: I-SALA5
 curso: Next.js
-dia: 2
+dia: 3
 estado: en_progreso
-loom: https://www.loom.com/share/b04ac8319cbe4e56997c453c74ba258a
+loom: (agregar link al terminar)
 ---
 
 ## Bloques
-- [X] A — Videos + types/index.ts + variables de entorno
-- [X] B — MesasPage Server Component + MesaCard Client Component
-- [X] C — loading.tsx + error.tsx en /mesas
-- [X] D — MenuPage Server Component + PlatoCard Client Component
-- [X] E — Verificación TypeScript completa
+- [ ] A — PedidoProvider + integrar en layout.tsx
+- [ ] B — Conectar PlatoCard al Context + contador en NavBar
+- [ ] C — CarritoPage Client Component con Context
+- [ ] D — Server Action: enviarComanda()
+- [ ] E — Verificación TypeScript completa
 - [ ] F — Evaluación entre pares + Loom + PR
 
 ## Verificación final
-- [x] /mesas muestra mesas reales del backend
-- [x] /mesas muestra loading antes del contenido
-- [x] /menu muestra platos reales del backend
-- [x] npx tsc --noEmit → 0 errores
+- [ ] Agregar plato en /menu → aparece en /carrito
+- [ ] Enviar comanda desde /carrito → POST real al backend
+- [ ] npx tsc --noEmit → 0 errores
 - [ ] PR aprobado por sala par
