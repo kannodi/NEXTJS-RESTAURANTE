@@ -21,4 +21,4 @@
 ## ⏱  Feedback 30 segundos — Bloque E
 • ¿Cuántos errores TypeScript había antes de resolver? ¿Cuál fue el más difícil?
     **Paolo:** 
-    **Joel:** 
+    **Joel:** Dado que el proyecto fue creado con create-next-app, no habian errores que corregir, los archivos que lei estaban bien tipados. 
