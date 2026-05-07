@@ -18,3 +18,7 @@
     **Paolo:** Este ya no tendria una simulacion de boton y en cambio tendria un contexto donde almacenaria valores para luego enviarlos 
     **Joel:** Lo que cambiaría sería la función handleAgregar. Seguiríamos usando setAgregado para mantener el feedback visual rápido (el check de agregado por unos segundos), pero añadiríamos la ejecución de la función agregarPlato(plato) proveniente del Context global para registrar efectivamente el pedido.
     
+## ⏱  Feedback 30 segundos — Bloque E
+• ¿Cuántos errores TypeScript había antes de resolver? ¿Cuál fue el más difícil?
+    **Paolo:** 
+    **Joel:** 
