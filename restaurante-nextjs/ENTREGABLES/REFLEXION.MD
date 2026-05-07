@@ -20,5 +20,5 @@
     
 ## ⏱  Feedback 30 segundos — Bloque E
 • ¿Cuántos errores TypeScript había antes de resolver? ¿Cuál fue el más difícil?
-    **Paolo:** 
+    **Paolo:** El proyecto de nextjs inicio sin errores y al culminar cada bloque nos aseguramos que no hayan, llegamos aca sin errores, se me dificulto el traer un componente cliente a partir de un server component(el server importanto al componente)
     **Joel:** Dado que el proyecto fue creado con create-next-app, no habian errores que corregir, los archivos que lei estaban bien tipados. 
