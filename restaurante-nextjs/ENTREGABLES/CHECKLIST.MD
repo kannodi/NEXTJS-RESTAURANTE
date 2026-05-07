@@ -3,7 +3,7 @@ sala: I-SALA5
 curso: Next.js
 dia: 2
 estado: en_progreso
-loom: (agregar link al terminar)
+loom: https://www.loom.com/share/b04ac8319cbe4e56997c453c74ba258a
 ---
 
 ## Bloques
@@ -15,8 +15,8 @@ loom: (agregar link al terminar)
 - [ ] F — Evaluación entre pares + Loom + PR
 
 ## Verificación final
-- [ ] /mesas muestra mesas reales del backend
-- [ ] /mesas muestra loading antes del contenido
-- [ ] /menu muestra platos reales del backend
-- [ ] npx tsc --noEmit → 0 errores
+- [x] /mesas muestra mesas reales del backend
+- [x] /mesas muestra loading antes del contenido
+- [x] /menu muestra platos reales del backend
+- [x] npx tsc --noEmit → 0 errores
 - [ ] PR aprobado por sala par
