@@ -18,6 +18,7 @@ export class Plato {
     precio: number;
     stock: number;
     categoria: string;
+    descripcion?: string;
 }
 
 export class PedidoItem {

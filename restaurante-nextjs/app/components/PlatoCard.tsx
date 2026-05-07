@@ -20,7 +20,7 @@ export default function PlatoCard({ plato }: PlatoCardProps) {
         <div className="border rounded-lg p-4 bg-white shadow-sm">
             <h3 className="font-bold text-lg mb-1">{plato.nombre}</h3>
             <p>-</p>
-            {/*//<p className="text-sm text-gray-500 mb-2">{plato.descripcion}</p>*/}
+            {plato.descripcion && <p className="text-sm text-gray-500 mb-2">{plato.descripcion}</p>}
             <p className="text-sm text-gray-400 mb-3 capitalize">{plato.categoria}</p>
             <div className="flex justify-between items-center">
                 <span className="font-bold text-blue-700">S/ {plato.precio.toFixed(2)}</span>

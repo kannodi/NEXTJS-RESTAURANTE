@@ -23,6 +23,7 @@ export interface Plato {
     precio: number;
     stock: number;
     categoria: string;
+    descripcion?: string;
 }
 //para platocard (el contador)
 export interface PlatoCardProps {
