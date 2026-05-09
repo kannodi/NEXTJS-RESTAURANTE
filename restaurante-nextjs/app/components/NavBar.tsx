@@ -2,9 +2,10 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
+import { usePedido } from '@/src/context/PedidoProvider';
 export default function NavBar() {
     const pathname = usePathname();
+    const { pedido } = usePedido();
     // Función helper — detecta si la ruta está activa
     const esActiva = (ruta: string): string => pathname === ruta
         ? 'font-bold text-red-700'
@@ -19,6 +20,7 @@ export default function NavBar() {
                 <li><Link href='/menu' className={esActiva('/menu')}>Menú</Link></li>
                 <li><Link href='/carrito' className={esActiva('/carrito')}>Carrito</Link></li>
             </ul>
+            <h1 className='ml-10 text-red-700 font-bold'> Carrito: {pedido.items.length}</h1>
         </nav >
     );
 }
