@@ -7,8 +7,8 @@
 ¿Dónde exactamente en PlatoCard.tsx van a agregar la llamada a agregarPlato(plato)? ¿Antes o después del setAgregado(true)?
 Línea donde va agregarPlato(plato): 
     **Paolo**
-    **Joel**
+    **Joel** Iria antes de setAgregado(true).
 ¿El estado local agregado sigue sirviendo? 
     **Paolo**
-    **Joel**
+    **Joel** si, es necesario para que funcione el feedback visual del click del boton
 
