@@ -5,4 +5,4 @@
 ## ⏱  Feedback 30 segundos — Bloque B
 • ¿El TODO era más simple de conectar de lo que esperabas, o fue complicado?
     **Paolo**Gracias a nextjs nos ahorramos un tanto de codigo en useeffects, es mas simple la estructura con nextjs
-    **Joel**
+    **Joel** Al inicio crei que seria mas complicado que eso, pero la estructura que tiene nextjs hace que sea simple conectarlo.
