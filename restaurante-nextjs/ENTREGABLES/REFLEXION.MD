@@ -4,5 +4,5 @@
     **Joel** No es necesario ya que el provider se creara en otro archivo que albergara el useclient. De ese archivo es de donde layout lo extraerá.
 ## ⏱  Feedback 30 segundos — Bloque B
 • ¿El TODO era más simple de conectar de lo que esperabas, o fue complicado?
-    **Paolo**
+    **Paolo**Gracias a nextjs nos ahorramos un tanto de codigo en useeffects, es mas simple la estructura con nextjs
     **Joel**
