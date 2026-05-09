@@ -6,9 +6,9 @@
 ## Predicción B
 ¿Dónde exactamente en PlatoCard.tsx van a agregar la llamada a agregarPlato(plato)? ¿Antes o después del setAgregado(true)?
 Línea donde va agregarPlato(plato): 
-    **Paolo**
+    **Paolo**en la linea 13 lo creamos y le damos el contexto y luego el boton lo creo en el return
     **Joel** Iria antes de setAgregado(true).
 ¿El estado local agregado sigue sirviendo? 
-    **Paolo**
+    **Paolo** si era necesario hasta el feedback visual, pero luego en adelante usaremos el contexto para mostrar la cantidad de platos en el carritos
     **Joel** si, es necesario para que funcione el feedback visual del click del boton
 
