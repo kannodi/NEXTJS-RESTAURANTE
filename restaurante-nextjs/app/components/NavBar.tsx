@@ -22,7 +22,10 @@ export default function NavBar() {
                 <li><Link href='/menu' className={esActiva('/menu')}>Menú</Link></li>
                 <li><Link href='/carrito' className={esActiva('/carrito')}>Carrito</Link></li>
             </ul>
-            <h1 className='ml-10 text-red-700 font-bold'> Carrito: {totalUnidades}</h1>
+            {/* carrito */}
+            {totalUnidades > 0 && (
+                <h1 className='ml-10 text-red-700 font-bold'> Carrito: {totalUnidades}</h1>
+            )}
         </nav >
     );
 }
