@@ -47,3 +47,20 @@ export interface Pedido {
     createdAt: string;
     updatedAt?: string;
 }
+
+export interface EstadoPedidoContext {
+    mesaId: string | null;
+    tipo: TipoPedido;
+    estado: EstadoPedido;
+    items: PedidoItem[];
+    total: number;
+}
+
+export interface PedidoContextType {
+    pedido: EstadoPedidoContext;
+    agregarPlato: (plato: Plato) => void;
+    quitarPlato: (platoId: string) => void;
+    cambiarTipo: (tipo: TipoPedido) => void;
+    asignarMesa: (mesaId: string) => void;
+    limpiarPedido: () => void;
+}
