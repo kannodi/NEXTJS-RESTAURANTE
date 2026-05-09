@@ -12,3 +12,11 @@ Línea donde va agregarPlato(plato):
     **Paolo** si era necesario hasta el feedback visual, pero luego en adelante usaremos el contexto para mostrar la cantidad de platos en el carritos
     **Joel** si, es necesario para que funcione el feedback visual del click del boton
 
+## Predicción D
+El Server Action recibe los datos del pedido como parámetro. ¿Qué tipo TypeScript le pondrías a ese parámetro?
+Tipo del parámetro de enviarComanda: 
+    **Paolo**
+    **Joel**
+¿El Server Action puede usar useState? 
+    **Paolo**
+    **Joel**
