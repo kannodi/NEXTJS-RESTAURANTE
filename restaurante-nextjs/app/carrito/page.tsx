@@ -1,12 +1,11 @@
 // app/carrito/page.tsx
 // Client Component — necesita leer el Context
 'use client';
-
 import { useRouter } from 'next/navigation';
 import { usePedido } from '../../src/context/PedidoProvider';
 /*import { enviarComanda } from './actions';*/
 import type { PedidoItem } from '../../src/types';
-
+import { useEffect } from 'react';
 // metadata NO funciona en Client Components
 // El title se puede poner con el hook useDocumentTitle o directamente en el head
 // Para este proyecto lo dejamos sin metadata especial
@@ -15,12 +14,22 @@ export default function CarritoPage() {
     const { pedido, quitarPlato, limpiarPedido } = usePedido();
     const router = useRouter();
 
-    // Calcular el total visual
+    const totalUnidades = pedido.items.reduce((acc, item) => acc + item.cantidad, 0);//cantidad de pedidos
+    //total visual
     const totalVisual = pedido.items.reduce(
         (acc: number, item: PedidoItem) => acc + item.precioUnitario * item.cantidad,
         0
     );
+    // MOSTRAR PEDIDOS EN LA PESTAÑA
+    useEffect(() => {
+        if (totalUnidades > 0) {
+            document.title = `carrito (${totalUnidades}) - Restaurante`
+        } else {
+            document.title = `carrito - Restaurante`
+        }
+    }, [totalUnidades]);
 
+    // SI ESTA VACIO EL CARRO SALTARA VOLVER AL MENU
     if (pedido.items.length === 0) {
         return (
             <div className="text-center mt-16">
