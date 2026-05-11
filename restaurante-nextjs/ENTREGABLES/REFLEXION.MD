@@ -8,5 +8,5 @@
     **Joel** Al inicio crei que seria mas complicado que eso, pero la estructura que tiene nextjs hace que sea simple conectarlo.
 ## ⏱  Feedback 30 segundos — Bloque C
 • ¿La predicción sobre metadata fue correcta? ¿Qué implica esa limitación para el diseño de la app?
-    **Paolo** 
+    **Paolo** Ya que es un componente  cliente, heredara el header de layout o se podra reescribrir con un useeffect
     **Joel** 
