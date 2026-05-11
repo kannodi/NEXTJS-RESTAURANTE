@@ -15,8 +15,8 @@ Línea donde va agregarPlato(plato):
 ## Predicción C
 ¿CarritoPage puede exportar metadata de Next.js? ¿Por qué?
 ¿metadata funciona en Client Components? 
-    **Paolo**
+    **Paolo** No deberia ya que no es una viste en si, sino que es un componente de cliente algo con lo que se va interactuando, a diferencia de el "home", "menu" o "platos" que son las paginas principales
     **Joel**
 Si no funciona, ¿cómo se cambia el title de la pestaña en una página Client? 
-    **Paolo**
+    **Paolo**En el return en html dandole un titulo a la etiqueta head?
     **Joel**
