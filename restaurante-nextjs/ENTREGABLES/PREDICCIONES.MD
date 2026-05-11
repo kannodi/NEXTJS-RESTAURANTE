@@ -16,7 +16,7 @@ Línea donde va agregarPlato(plato):
 ¿CarritoPage puede exportar metadata de Next.js? ¿Por qué?
 ¿metadata funciona en Client Components? 
     **Paolo** No deberia ya que no es una viste en si, sino que es un componente de cliente algo con lo que se va interactuando, a diferencia de el "home", "menu" o "platos" que son las paginas principales
-    **Joel**
+    **Joel** No, por que metadata es una propiedad exclusiva de los componentes Server.
 Si no funciona, ¿cómo se cambia el title de la pestaña en una página Client? 
-    **Paolo**En el return en html dandole un titulo a la etiqueta head?
-    **Joel**
+    **Paolo** En el return en html dandole un titulo a la etiqueta head?
+    **Joel** La forma recomendada por Next.js es que el archivo page.tsx de esa ruta sea un Server Component (sin "use client"). Este archivo se encargará de exportar la metadata y luego simplemente importará y renderizará tu componente cliente que tiene la lógica del carrito.
