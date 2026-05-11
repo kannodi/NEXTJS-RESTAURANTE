@@ -3,23 +3,39 @@
 'use client';
 import { useRouter } from 'next/navigation';
 import { usePedido } from '../../src/context/PedidoProvider';
-/*import { enviarComanda } from './actions';*/
+import { enviarComanda } from './actions';
 import type { PedidoItem } from '../../src/types';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // metadata NO funciona en Client Components
 // El title se puede poner con el hook useDocumentTitle o directamente en el head
 // Para este proyecto lo dejamos sin metadata especial
 
 export default function CarritoPage() {
+    const [enviando, setEnviando] = useState<boolean>(false);
+    const [confirmacion, setConfirmacion] = useState<string | null>(null);
+    const [errorEnvio, setErrorEnvio] = useState<string | null>(null);
     const { pedido, quitarPlato, limpiarPedido } = usePedido();
     const router = useRouter();
-
     const totalUnidades = pedido.items.reduce((acc, item) => acc + item.cantidad, 0);//cantidad de pedidos
-    //total visual
-    const totalVisual = pedido.items.reduce(
-        (acc: number, item: PedidoItem) => acc + item.precioUnitario * item.cantidad,
-        0
-    );
+    const totalVisual = pedido.items.reduce((acc: number, item: PedidoItem) => acc + item.precioUnitario * item.cantidad, 0);//total visual
+
+    // El handler que llama al Server Action:
+    const handleEnviar = async (): Promise<void> => {
+        setEnviando(true);
+        setErrorEnvio(null);
+        // Pasar el estado completo del pedido al Server Action
+
+        const resultado = await enviarComanda(pedido);
+
+        if (resultado.ok) {
+            setConfirmacion(resultado.pedidoId);
+            limpiarPedido();   // limpiar el Context del cliente
+        } else {
+            setErrorEnvio(resultado.error);
+        }
+        setEnviando(false);
+    };
+
     // MOSTRAR PEDIDOS EN LA PESTAÑA
     useEffect(() => {
         if (totalUnidades > 0) {
@@ -29,6 +45,22 @@ export default function CarritoPage() {
         }
     }, [totalUnidades]);
 
+    // Pantalla de confirmación — mostrar si confirmacion !== null:
+    if (confirmacion) {
+        return (
+            <div className="text-center mt-16">
+                <nav className="text-5xl mb-4">✅</nav>
+                <h1 className="text-2xl font-bold mb-2">¡Comanda enviada!</h1>
+                <p className="text-gray-500 mb-2 text-sm font-mono">ID: {confirmacion}</p>
+                <button
+                    onClick={() => { setConfirmacion(null); router.push("/mesas"); }}
+                    className="mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+                >
+                    Volver a las mesas
+                </button>
+            </div>
+        );
+    }
     // SI ESTA VACIO EL CARRO SALTARA VOLVER AL MENU
     if (pedido.items.length === 0) {
         return (
@@ -82,22 +114,24 @@ export default function CarritoPage() {
                 </div>
             </div>
 
-            {/* Botón de envío — llama al Server Action /}
-            {/*<form action={async () => {
-                'use server'; // Esta directiva en el form no funciona — ver Bloque D
-            }}>
-                {/* El Server Action real va en Bloque D /}
-            <p className="text-sm text-gray-400 text-center mb-3">
-                Botón de envío — se conecta en Bloque D
-            </p>
-        </form> */}
-            {/* Botón de envío — llama al Server Action */}
+            {/* boton de enviar pedido */}
+            {errorEnvio && (
+                <p className="text-red-500 text-sm mb-3">{errorEnvio}</p>
+            )}
             <button
-                onClick={limpiarPedido}
-                className="w-full mt-2 border border-gray-300 rounded py-2 text-gray-500 hover:bg-gray-50"
-            >
+                onClick={handleEnviar}
+                disabled={enviando}
+                className="w-full bg-blue-600 text-white rounded py-3 font-bold hover:bg-blue-700 disabled:opacity-50">
+                {enviando ? "Enviando comanda..." : "Enviar comanda"}
+            </button>
+
+            {/* Botón de limpiar pedido — llama al Server Action */}
+            <button onClick={limpiarPedido}
+                className="w-full mt-2 border border-gray-300 rounded py-2 text-gray-500 hover:bg-gray-50">
                 Vaciar carrito
             </button>
         </div >
+
     );
+
 }
