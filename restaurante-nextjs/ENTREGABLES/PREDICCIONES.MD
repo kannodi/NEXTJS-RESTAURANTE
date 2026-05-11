@@ -20,3 +20,11 @@ Línea donde va agregarPlato(plato):
 Si no funciona, ¿cómo se cambia el title de la pestaña en una página Client? 
     **Paolo** En el return en html dandole un titulo a la etiqueta head?
     **Joel** La forma recomendada por Next.js es que el archivo page.tsx de esa ruta sea un Server Component (sin "use client"). Este archivo se encargará de exportar la metadata y luego simplemente importará y renderizará tu componente cliente que tiene la lógica del carrito.
+## Predicción D
+El Server Action recibe los datos del pedido como parámetro. ¿Qué tipo TypeScript le pondrías a ese parámetro?
+Tipo del parámetro de enviarComanda: 
+    **Paolo**
+    **Joel** 
+¿El Server Action puede usar useState? 
+    **Paolo**
+    **Joel** 
