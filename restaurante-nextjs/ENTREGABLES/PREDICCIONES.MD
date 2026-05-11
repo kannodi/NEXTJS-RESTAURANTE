@@ -24,7 +24,7 @@ Si no funciona, ¿cómo se cambia el title de la pestaña en una página Client?
 El Server Action recibe los datos del pedido como parámetro. ¿Qué tipo TypeScript le pondrías a ese parámetro?
 Tipo del parámetro de enviarComanda: 
     **Paolo**
-    **Joel** 
+    **Joel** El tipo de Typescript que se le pondria es Pedido[].
 ¿El Server Action puede usar useState? 
     **Paolo**
-    **Joel** 
+    **Joel** El Server Action no puede usar useState porque es una función asíncrona del lado del servidor, no un componente de React. Los hooks como useState solo funcionan dentro del ciclo de vida de los componentes para manejar la interfaz.
