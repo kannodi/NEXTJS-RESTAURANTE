@@ -23,8 +23,8 @@ Si no funciona, ¿cómo se cambia el title de la pestaña en una página Client?
 ## Predicción D
 El Server Action recibe los datos del pedido como parámetro. ¿Qué tipo TypeScript le pondrías a ese parámetro?
 Tipo del parámetro de enviarComanda: 
-    **Paolo**
+    **Paolo** llevaria la interface estadoPedidoContext para cuando enviemos la comanda
     **Joel** 
 ¿El Server Action puede usar useState? 
-    **Paolo**
+    **Paolo** no ya que los hooks solo son para componentes que se renderizan y los server actions son solo funciones logicas
     **Joel** 
