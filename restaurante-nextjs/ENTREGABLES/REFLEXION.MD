@@ -12,5 +12,6 @@
     **Joel**  Si, fue la correcta, metadata solo funciona en componentes server. La implicancia es que debemos estructurar nuestra app de manera que las rutas principales sean Server Components para tener el control del header y que el titulo de la pestaña se muestre correctamente.
 ## ⏱  Feedback 30 segundos — Bloque D
 • ¿La separación entre lo que hace el Server Action y lo que hace el cliente fue clara?
-
+    **Paolo** Confuso al inicio ya que no sabia bien lo que seria un server action, ahora lo veo mas claro, que va en cliente y que va en server
+    **Joel** 
 
