@@ -22,8 +22,13 @@ export class PedidosService {
   }
 
   create(pedido: Pedido): Pedido {
-    this.pedidos.push(pedido);
-    return pedido;
+    const nuevoPedido = {
+      ...pedido,
+      _id: Math.random().toString(36).substring(2, 9),
+      createdAt: new Date().toISOString(),
+    };
+    this.pedidos.push(nuevoPedido);
+    return nuevoPedido;
   }
 
   updateEstado(id: string, estado: EstadoPedido): Pedido | null {
