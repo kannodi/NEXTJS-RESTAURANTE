@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import type { Plato } from '../../src/types';
 import { getPlatos } from '../../src/services/api';
-import PlatoCard from '../components/PlatoCard';
+import PlatoCard from './PlatoCard';
 
 export const metadata: Metadata = {
     title: 'Menú — Restaurante',
