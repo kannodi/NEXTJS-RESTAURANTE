@@ -36,11 +36,11 @@
 
 ## ⏱ Feedback 30 segundos — Bloque E
 **Pregunta:** ¿Cuántos errores TypeScript había antes de resolver?
-*   **Paolo:** *(Pendiente)*
+*   **Paolo:** Cuando iniciamos no habian errores hasta llegar a la parte de page carrito, el form que nos indicaba el doc traia un error, ya que se trataba se usar un user server dentro de ya un componente cliente, lo cual rompia la app.
 *   **Joel:** *(Pendiente)*
 
 **Pregunta:** ¿El flujo manual encontró algún bug que TypeScript no detectó?
-*   **Paolo:** *(Pendiente)*
+*   **Paolo:** Hasta ahorra no ha pasado un bug que ts no nos haya dicho ya en compilacion
 *   **Joel:** *(Pendiente)*
 
 ---
