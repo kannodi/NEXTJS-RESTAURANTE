@@ -15,3 +15,12 @@
     **Paolo** Confuso al inicio ya que no sabia bien lo que seria un server action, ahora lo veo mas claro, que va en cliente y que va en server
     **Joel** 
 
+## ⏱  Feedback 30 segundos — Bloque E
+• ¿Cuántos errores TypeScript había antes de resolver?
+    **Paolo**
+    **Joel**
+• ¿El flujo manual encontró algún bug que TypeScript no detectó?
+    **Paolo**
+    **Joel**
+
+
