@@ -44,3 +44,15 @@ export async function cambiarEstadoPedido(
     if (!res.ok) throw new Error(`Error al cambiar estado: ${res.status}`);
     return res.json();
 }
+export async function getMesaById(id: string): Promise<Mesa> {
+    // 1. Hacemos la petición a la URL dinámica (incluye el ID)
+    const res = await fetch(`${BASE_URL}/mesas/${id}`, { cache: 'no-store' });
+    // 2. Control de errores específico (404)
+    if (res.status === 404) {
+        throw new Error(`Mesa con ID ${id} no encontrada`);
+    }
+    // 3. Control de errores genérico (500, etc.)
+    if (!res.ok) throw new Error(`Error al obtener mesa: ${res.status}`);
+    // 4. Devolvemos el JSON (un objeto Mesa único)
+    return res.json();
+}
