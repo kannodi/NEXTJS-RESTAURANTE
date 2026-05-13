@@ -7,10 +7,10 @@
 
 *   **¿GET /mesas/:id existe?**
     *   **Paolo:**  Si existe, antigravity nos brindo su ayuda para crear el backend y nosotros crear el frontend
-    *   **Joel:** 
+    *   **Joel:** Si cuenta con aquel endpoint.
 *   **¿Qué retorna si el ID no existe?**
     *   **Paolo:** Manejaremos un error para indicar que la url ingresada no existe o la mesa no existe
-    *   **Joel:** 
+    *   **Joel:** Ahora mismo devuelve un objeto inexistente. Eso es algo que arreglaremos para que devuelva un aviso de que esa mesa no existe.
 
 ---
 
