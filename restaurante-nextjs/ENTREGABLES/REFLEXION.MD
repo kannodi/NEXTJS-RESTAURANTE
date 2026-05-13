@@ -6,7 +6,7 @@
 **Pregunta:** ¿El backend tenía el endpoint `/mesas/:id` o tuvieron que usar la Opción B? ¿Qué implica eso para el rendimiento?
 
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** El backend si contaba con el endpoint. No representa un problema para el rendimiento ya que solo obtenemos los datos de una sola mesa y no de todas.
 
 ---
 
