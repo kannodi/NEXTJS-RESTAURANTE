@@ -6,7 +6,7 @@
 **Pregunta:** ¿El backend tenía el endpoint `/mesas/:id` o tuvieron que usar la Opción B? ¿Qué implica eso para el rendimiento?
 
 *   **Paolo:** Si tenia el endpoint mesas:id , usamos la opcion A, verificara si el id de la mesa no existe y lanzara error, con esta info manejaremos la vista
-*   **Joel:** 
+*   **Joel:** El backend si contaba con el endpoint. No representa un problema para el rendimiento ya que solo obtenemos los datos de una sola mesa y no de todas.
 
 ---
 
