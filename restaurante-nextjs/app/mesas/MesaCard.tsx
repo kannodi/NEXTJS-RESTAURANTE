@@ -4,7 +4,7 @@
 
 import { useRouter } from 'next/navigation';
 import type { Mesa } from '../../src/types';
-
+import { usePedido } from '../../src/context/PedidoProvider';
 interface MesaCardProps {
     mesa: Mesa;
 }
@@ -18,6 +18,7 @@ const colorPorEstado: Record<Mesa["estado"], string> = {
 }
 
 export default function MesaCard({ mesa }: MesaCardProps) {
+    const { pedido, asignarMesa } = usePedido();
     const router = useRouter();
 
     const handleClick = (): void => {
@@ -27,13 +28,15 @@ export default function MesaCard({ mesa }: MesaCardProps) {
     };
 
     return (
-        <button onClick={handleClick}
-            className={`border-2 rounded-lg p-4 text-left w-full
+        <div>
+            <button onClick={() => { handleClick(); asignarMesa(mesa._id) }}
+                className={`border-2 rounded-lg p-4 text-left w-full
                 ${colorPorEstado[mesa.estado]}
                 ${mesa.estado === 'fuera_servicio' ? 'cursor-not-allowed' : 'cursor-pointer'}`}>
-            <p className="font-bold text-lg">Mesa {mesa.numero}</p>
-            <p className="text-sm text-gray-600">Cap: {mesa.capacidad}</p>
-            <p className="text-sm capitalize">{mesa.estado.replace("_", " ")}</p>
-        </button>
+                <p className="font-bold text-lg">Mesa {mesa.numero}</p>
+                <p className="text-sm text-gray-600">Cap: {mesa.capacidad}</p>
+                <p className="text-sm capitalize">{mesa.estado.replace("_", " ")}</p>
+            </button>
+        </div>
     );
 };

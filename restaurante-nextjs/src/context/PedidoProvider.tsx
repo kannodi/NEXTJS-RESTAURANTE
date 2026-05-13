@@ -74,7 +74,7 @@ export default function PedidoProvider({
     }
 
     function cambiarTipo(tipo: TipoPedido): void {
-        setPedido(prev => ({ ...prev, tipo }));
+        setPedido(prev => ({ ...prev, tipo, mesaId: tipo === 'para_llevar' ? null : prev.mesaId }));
     }
 
     function asignarMesa(mesaId: string): void {

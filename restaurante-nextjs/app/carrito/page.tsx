@@ -11,10 +11,10 @@ import { useEffect, useState } from 'react';
 // Para este proyecto lo dejamos sin metadata especial
 
 export default function CarritoPage() {
+    const { pedido, quitarPlato, limpiarPedido, cambiarTipo } = usePedido();
     const [enviando, setEnviando] = useState<boolean>(false);
     const [confirmacion, setConfirmacion] = useState<string | null>(null);
     const [errorEnvio, setErrorEnvio] = useState<string | null>(null);
-    const { pedido, quitarPlato, limpiarPedido } = usePedido();
     const router = useRouter();
     const totalUnidades = pedido.items.reduce((acc, item) => acc + item.cantidad, 0);//cantidad de pedidos
     const totalVisual = pedido.items.reduce((acc: number, item: PedidoItem) => acc + item.precioUnitario * item.cantidad, 0);//total visual
@@ -80,6 +80,23 @@ export default function CarritoPage() {
     return (
         <div className="max-w-2xl mx-auto">
             <h1 className="text-2xl font-bold mb-6">Tu Carrito</h1>
+            <div>
+                {pedido.tipo === "para_llevar" && (
+                    <div>
+                        <h1 className="mb-5">Para llevar</h1>
+                    </div>
+                )}
+                {pedido.tipo === "mesa" && (
+                    <div>
+                        <h1 className="mb-5">Mesa asignada: {pedido.mesaId}</h1>
+                    </div>
+                )}
+                {/*pedido.mesaId === null && (
+                    <div>
+                        <h1 className="mb-5">Mesa no asignada</h1>
+                    </div>
+                )*/}
+            </div>
 
             {/* Lista de items */}
             <div className="space-y-3 mb-6">
@@ -129,6 +146,18 @@ export default function CarritoPage() {
             <button onClick={limpiarPedido}
                 className="w-full mt-2 border border-gray-300 rounded py-2 text-gray-500 hover:bg-gray-50">
                 Vaciar carrito
+            </button>
+            <button
+                onClick={() => cambiarTipo(pedido.tipo === 'mesa' ? 'para_llevar' : 'mesa')}
+                className="w-full mt-2 border border-gray-300 rounded py-2 text-gray-500 hover:bg-gray-50"
+            >
+                Cambiar a {pedido.tipo === 'mesa' ? 'Para Llevar' : 'Mesa'}
+            </button>
+
+            <button
+                onClick={() => router.back()}
+                className="w-full mt-2 border border-gray-300 rounded py-2 text-gray-500 hover:bg-gray-50">
+                Volver al menú
             </button>
         </div >
 
