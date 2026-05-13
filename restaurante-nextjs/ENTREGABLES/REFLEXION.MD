@@ -5,7 +5,7 @@
 ## ⏱ Feedback 30 segundos — Bloque A
 **Pregunta:** ¿El backend tenía el endpoint `/mesas/:id` o tuvieron que usar la Opción B? ¿Qué implica eso para el rendimiento?
 
-*   **Paolo:** 
+*   **Paolo:** Si tenia el endpoint mesas:id , usamos la opcion A, verificara si el id de la mesa no existe y lanzara error, con esta info manejaremos la vista
 *   **Joel:** 
 
 ---
