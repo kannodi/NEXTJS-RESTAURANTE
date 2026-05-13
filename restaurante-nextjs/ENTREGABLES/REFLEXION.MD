@@ -30,7 +30,7 @@
 **Pregunta:** ¿La separación entre lo que hace el Server Action y lo que hace el cliente fue clara?
 
 *   **Paolo:** Confuso al inicio ya que no sabia bien lo que seria un server action, ahora lo veo mas claro, que va en cliente y que va en server.
-*   **Joel:** *(Pendiente)*
+*   **Joel:** Mas o menos, al inicio no tenia claro que cosas iban en server y que cosas iban en cliente.
 
 ---
 
@@ -41,6 +41,6 @@
 
 **Pregunta:** ¿El flujo manual encontró algún bug que TypeScript no detectó?
 *   **Paolo:** Hasta ahorra no ha pasado un bug que ts no nos haya dicho ya en compilacion
-*   **Joel:** *(Pendiente)*
+*   **Joel:** Actualmente no hemos encontrado ningun bug que TypeScript no haya detectado.
 
 ---
