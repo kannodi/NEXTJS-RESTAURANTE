@@ -91,6 +91,11 @@ export default function CarritoPage() {
                         <h1 className="mb-5">Mesa asignada: {pedido.mesaId}</h1>
                     </div>
                 )}
+                {/*pedido.mesaId === null && (
+                    <div>
+                        <h1 className="mb-5">Mesa no asignada</h1>
+                    </div>
+                )*/}
             </div>
 
             {/* Lista de items */}
