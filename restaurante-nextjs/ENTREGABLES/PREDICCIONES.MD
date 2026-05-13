@@ -6,10 +6,10 @@
 **Pregunta:** ¿El backend tiene un endpoint `GET /mesas/:id`? ¿Qué retorna si el ID no existe (un 404 o un objeto vacío)?
 
 *   **¿GET /mesas/:id existe?**
-    *   **Paolo:** 
+    *   **Paolo:**  Si existe, antigravity nos brindo su ayuda para crear el backend y nosotros crear el frontend
     *   **Joel:** 
 *   **¿Qué retorna si el ID no existe?**
-    *   **Paolo:** 
+    *   **Paolo:** Manejaremos un error para indicar que la url ingresada no existe o la mesa no existe
     *   **Joel:** 
 
 ---
