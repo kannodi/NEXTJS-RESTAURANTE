@@ -13,7 +13,7 @@
 ## ⏱ Feedback 30 segundos — Bloque B
 **Pregunta:** ¿La predicción sobre `generateMetadata` async fue correcta? ¿Qué implica hacer dos fetches iguales (en metadata y en el componente)?
 
-*   **Paolo:** 
+*   **Paolo:** Si, gracias a nextjs al tener dos fetchs en el mismo archivo, aun hara una sola peticion. No hay problema con tener ambos fetches
 *   **Joel:** 
 
 ---
