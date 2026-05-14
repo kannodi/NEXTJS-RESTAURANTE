@@ -4,7 +4,7 @@ import { Mesa } from '../types';
 @Injectable()
 export class MesasService {
   private mesas: Mesa[] = [
-    { _id: '1111', numero: 1, estado: 'disponible', capacidad: 4 },
+    { _id: '1111', numero: 1, estado: "ocupada", capacidad: 4 },
     { _id: '2222', numero: 2, estado: 'ocupada', capacidad: 2, comensales: 2, pedidoActivoId: 'p1' },
     { _id: '3333', numero: 3, estado: 'reservada', capacidad: 6 },
     { _id: '4444', numero: 4, estado: 'disponible', capacidad: 4 },

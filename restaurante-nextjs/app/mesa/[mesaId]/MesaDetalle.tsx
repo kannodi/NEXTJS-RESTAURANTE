@@ -3,7 +3,7 @@
 
 import { useState, useTransition } from 'react';
 import type { Mesa, EstadoMesa } from '../../../src/types';
-/*import { cambiarEstadoMesa } from './actions';*/
+import { cambiarEstadoMesa } from './actions';
 
 interface MesaDetalleProps {
     mesa: Mesa;
