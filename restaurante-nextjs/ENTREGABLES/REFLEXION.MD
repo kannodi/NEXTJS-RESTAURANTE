@@ -29,7 +29,7 @@
 ## ⏱ Feedback 30 segundos — Bloque D
 **Pregunta:** ¿`revalidatePath` fue lo que predijiste? ¿Actualiza en tiempo real o al siguiente request?
 
-*   **Paolo:** 
+*   **Paolo:** revalidate, actualiza los datos inmediatamente de hacer un patch, primero borra el cache y envia a nextjs a recargar ese  vista
 *   **Joel:** 
 
 ---
