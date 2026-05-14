@@ -19,10 +19,11 @@
 
 *   **¿Puede hacer fetch/await?**
     *   **Paolo:** Si puede usar fetchj de datos, ya sea para saber en que mesa esta y mostrarlo en la pestaña del navegador.
-    *   **Joel:** 
+    *   **Joel:** Si, si puede utilizar await.
+    
 *   **¿Puede llamar a getMesaById()?**
     *   **Paolo:** Si podemos hacer un doble llamado de la funcion adentro de generateMetadata, de todas maneras  solo se realizara una sola peticion
-    *   **Joel:** 
+    *   **Joel:** Si, se puede usar la funcion.
 
 ---
 
