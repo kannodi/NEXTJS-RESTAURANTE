@@ -43,10 +43,10 @@
 **Pregunta:** Después de llamar a `cambiarEstadoMesa()` con éxito, ¿Next.js actualiza `/mesas` automáticamente? ¿Qué hace `revalidatePath` para que eso ocurra?
 
 *   **¿Actualiza automáticamente?**
-    *   **Paolo:** 
+    *   **Paolo:** Si, pero luego de que revalidatepath haga lo suyo, nextjs lo hace
     *   **Joel:** 
 *   **¿Qué hace revalidatePath?**
-    *   **Paolo:** 
+    *   **Paolo:** Borra el cache, asi si tenemos datos antiguos nextjs lo vera ahora vacio y lo actualizara sin necesidad de pantallas blancas
     *   **Joel:** 
 
 ---
