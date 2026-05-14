@@ -31,10 +31,10 @@
 **Pregunta:** El Suspense manual que envuelve `<MesaDetalle>` en `page.tsx`. ¿Cuándo se muestra exactamente el skeleton? ¿`MesaDetalle` hace fetch o solo usa los datos que recibe por prop?
 
 *   **¿Cuándo se muestra el skeleton?**
-    *   **Paolo:** 
+    *   **Paolo:** Cuando se hace un await dentro de mesaDetalle, entonces toma lo que esta dentro de suspense=fallback y muestra el skeleton
     *   **Joel:** 
 *   **¿`MesaDetalle` hace fetch propio?**
-    *   **Paolo:** 
+    *   **Paolo:** No, recibe props de mesaDetalle desde page.tsx, page hace los fetchs necesarios y los pasa con mesa={mesa}
     *   **Joel:** 
 
 ---
