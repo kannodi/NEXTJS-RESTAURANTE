@@ -20,7 +20,7 @@
 *   **¿Puede hacer fetch/await?**
     *   **Paolo:** Si puede usar fetchj de datos, ya sea para saber en que mesa esta y mostrarlo en la pestaña del navegador.
     *   **Joel:** Si, si puede utilizar await.
-    
+
 *   **¿Puede llamar a getMesaById()?**
     *   **Paolo:** Si podemos hacer un doble llamado de la funcion adentro de generateMetadata, de todas maneras  solo se realizara una sola peticion
     *   **Joel:** Si, se puede usar la funcion.
@@ -32,10 +32,10 @@
 
 *   **¿Cuándo se muestra el skeleton?**
     *   **Paolo:** Cuando se hace un await dentro de mesaDetalle, entonces toma lo que esta dentro de suspense=fallback y muestra el skeleton
-    *   **Joel:** 
+    *   **Joel:** Se mostrará el skeleton mientras se carga la información de la mesa.
 *   **¿`MesaDetalle` hace fetch propio?**
     *   **Paolo:** No, recibe props de mesaDetalle desde page.tsx, page hace los fetchs necesarios y los pasa con mesa={mesa}
-    *   **Joel:** 
+    *   **Joel:** No, la información se la pasa su padre.
 
 ---
 
