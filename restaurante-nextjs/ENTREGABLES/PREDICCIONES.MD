@@ -18,10 +18,10 @@
 **Pregunta:** ¿`generateMetadata` puede hacer fetch de datos del backend para construir el title dinámico? ¿O solo puede usar los params de la URL? ¿Puede llamar a `getMesaById()`?
 
 *   **¿Puede hacer fetch/await?**
-    *   **Paolo:** 
+    *   **Paolo:** Si puede usar fetchj de datos, ya sea para saber en que mesa esta y mostrarlo en la pestaña del navegador.
     *   **Joel:** 
 *   **¿Puede llamar a getMesaById()?**
-    *   **Paolo:** 
+    *   **Paolo:** Si podemos hacer un doble llamado de la funcion adentro de generateMetadata, de todas maneras  solo se realizara una sola peticion
     *   **Joel:** 
 
 ---
