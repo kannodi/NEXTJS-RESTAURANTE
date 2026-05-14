@@ -44,9 +44,9 @@
 
 *   **¿Actualiza automáticamente?**
     *   **Paolo:** Si, pero luego de que revalidatepath haga lo suyo, nextjs lo hace
-    *   **Joel:** 
+    *   **Joel:** Si, actualiza el estado de las mesas, Y como usamos transition, la interfaz se mantiene fluida. Lo que hace revalidatepath es invalidar la ruta cacheada, provocando que se vuelva a generar en la siguiente solicitud.
 *   **¿Qué hace revalidatePath?**
     *   **Paolo:** Borra el cache, asi si tenemos datos antiguos nextjs lo vera ahora vacio y lo actualizara sin necesidad de pantallas blancas
-    *   **Joel:** 
+    *   **Joel:** Elimina la versión en caché de la ruta especificada con el fin de invalidarla y provocar que se vuelva a generar en la siguiente solicitud.
 
 ---
