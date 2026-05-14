@@ -21,7 +21,7 @@
 ## ⏱ Feedback 30 segundos — Bloque C
 **Pregunta:** ¿`useTransition` fue más claro o más confuso que un `useState<boolean>` de loading?
 
-*   **Paolo:** 
+*   **Paolo:** No son tan complejos, es solo un poco la teoria de como funcionan, para mi el mas facil es usestate, pero el usetransition es mas simplificado y ahorra codigo
 *   **Joel:** 
 
 ---
