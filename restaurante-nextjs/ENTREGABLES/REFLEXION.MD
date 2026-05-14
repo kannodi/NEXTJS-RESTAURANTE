@@ -22,7 +22,7 @@
 **Pregunta:** ¿`useTransition` fue más claro o más confuso que un `useState<boolean>` de loading?
 
 *   **Paolo:** No son tan complejos, es solo un poco la teoria de como funcionan, para mi el mas facil es usestate, pero el usetransition es mas simplificado y ahorra codigo
-*   **Joel:** 
+*   **Joel:** Fue más claro porque reduce el código repetitivo. Evitamos tener que cambiar manualmente un estado de carga a true y false usando try/catch/finally. El isPending nos da ese estado automáticamente.
 
 ---
 
