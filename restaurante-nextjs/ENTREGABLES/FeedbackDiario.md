@@ -1,26 +1,57 @@
 # 📝 Feedback Integrado del Día
 
+> [!TIP]
+> Reflexión diaria sobre el proceso de aprendizaje y el estado del proyecto.
+
 ---
 
-**1. ¿`generateMetadata` fue intuitivo o confuso al principio?**
-> al principio confuso, pero luego se entiende como usarlo, util para saber en que pestaña del navegador estoy
+### 🧠 Autoevaluación
 
-**2. ¿`revalidatePath` fue lo que esperaban, o esperaban actualización en tiempo real?**
-> si es lo que esperabamos, lo que leimos era tal cual como funcionaba y se veia en compilacion, borrar cache -> datos nuevos
+#### 1. ¿`generateMetadata` fue intuitivo o confuso al principio?
 
-**3. ¿`useTransition` fue más claro o confuso que un `useState<boolean>`?**
->  al principio a paolo se le complico un tanto, es mas simplificado, pero solo hay que saber como nextjs lo toma y usar los suspense y fallback en el componente que se necesite
+*   **Paolo:** 
+*   **Joel:** 
 
-**4. ¿El tiempo fue suficiente para los 6 bloques?**
-> nos tardamos un tanto 
+<br/>
+
+#### 2. ¿`revalidatePath` fue lo que esperaban, o esperaban actualización en tiempo real?
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
+
+#### 3. ¿`useTransition` fue más claro o confuso que un `useState<boolean>`?
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
+
+#### 4. ¿El tiempo fue suficiente para los 6 bloques?
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
 
 ---
 
 ### 🚀 Estado del Proyecto
+
 **¿El proyecto restaurante-nextjs está listo para el Día 5?**
-- [X] SÍ
-- [ ] NO
-- [ ] PARCIAL
+
+- [ ] **SÍ**
+- [ ] **NO**
+- [ ] **PARCIAL**
+
+<br/>
 
 **Calificación general de la actividad (1-5):**
-> 5
+
+> ⭐ ** ** / 5
+
+<br/>
+
+---
+*Métrica de satisfacción y progreso del equipo.*

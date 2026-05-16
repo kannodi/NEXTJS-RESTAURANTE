@@ -1,45 +1,54 @@
-# 🧠 Reflexión Diaria - Día 4
+# 🧠 Reflexión Técnica — Día 4 & 5
+
+> [!TIP]
+> Espacio para documentar el aprendizaje y la resolución de problemas durante los bloques de desarrollo.
 
 ---
 
-## ⏱ Feedback 30 segundos — Bloque A
-**Pregunta:** ¿El backend tenía el endpoint `/mesas/:id` o tuvieron que usar la Opción B? ¿Qué implica eso para el rendimiento?
+### ⏱ Feedback 30 segundos — Bloque A
 
-*   **Paolo:** Si tenia el endpoint mesas:id , usamos la opcion A, verificara si el id de la mesa no existe y lanzara error, con esta info manejaremos la vista
-*   **Joel:** El backend si contaba con el endpoint. No representa un problema para el rendimiento ya que solo obtenemos los datos de una sola mesa y no de todas.
+**¿El backend tiene filtro por estado o hay que filtrar en el frontend?**
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
+
+### ⏱ Feedback 30 segundos — Bloque B
+
+**¿La predicción sobre `generateMetadata` síncrona fue correcta?**
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
+
+### ⏱ Feedback 30 segundos — Bloque C
+
+**¿La tabla de flujo de estados fue clara antes de escribir SIGUIENTE?**
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
+
+### ⏱ Feedback 30 segundos — Bloque D
+
+**¿La lista se actualizó automáticamente o necesitaron `router.refresh()`?**
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
+
+### ⏱ Feedback 30 segundos — Bloque E
+
+**¿Cuántos errores TypeScript había?**
+
+*   **Paolo:** 
+*   **Joel:** 
+
+<br/>
 
 ---
-
-## ⏱ Feedback 30 segundos — Bloque B
-**Pregunta:** ¿La predicción sobre `generateMetadata` async fue correcta? ¿Qué implica hacer dos fetches iguales (en metadata y en el componente)?
-
-*   **Paolo:** Si, gracias a nextjs al tener dos fetchs en el mismo archivo, aun hara una sola peticion. No hay problema con tener ambos fetches
-*   **Joel:** Si, a pesar de ser dos fetchs, solo se realiza una sola peticion. No genera problemas.
-
----
-
-## ⏱ Feedback 30 segundos — Bloque C
-**Pregunta:** ¿`useTransition` fue más claro o más confuso que un `useState<boolean>` de loading?
-
-*   **Paolo:** No son tan complejos, es solo un poco la teoria de como funcionan, para mi el mas facil es usestate, pero el usetransition es mas simplificado y ahorra codigo
-*   **Joel:** Fue más claro porque reduce el código repetitivo. Evitamos tener que cambiar manualmente un estado de carga a true y false usando try/catch/finally. El isPending nos da ese estado automáticamente.
-
----
-
-## ⏱ Feedback 30 segundos — Bloque D
-**Pregunta:** ¿`revalidatePath` fue lo que predijiste? ¿Actualiza en tiempo real o al siguiente request?
-
-*   **Paolo:** revalidate, actualiza los datos inmediatamente de hacer un patch, primero borra el cache y envia a nextjs a recargar ese  vista
-*   **Joel:** revalidatePath borra el caché de esa ruta en el servidor, pero la actualización no es en tiempo real.
-La página se regenera con datos frescos en el siguiente request que haga algún usuario.
-Es decir, después del PATCH, el cache queda invalidado, y la próxima visita a esa ruta verá los datos actualizados.
-
----
-
-## ⏱ Feedback 30 segundos — Bloque E
-**Pregunta:** ¿Cuántos errores TypeScript había antes de resolver?
-
-*   **Paolo:** En el transcurro de los bloques hay errores, pero al finalizarlos estos ya no existen, desde el ultimo bloque habian 0 errores
-*   **Joel:** Como la mayor parte ya estaba concluida, ya no encontramos mas errores de TS.
-
----
+*Documentación de aprendizaje continuo.*

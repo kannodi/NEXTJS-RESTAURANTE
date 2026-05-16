@@ -1,28 +1,32 @@
 ---
 sala: I-SALA1
 curso: Next.js
-dia: 4
-estado: entregado
-loom: https://www.loom.com/share/ef094a5a21c040419c9682e79c7a337d
+dia: 5
+estado: en_progreso
+loom: (agregar link al terminar)
 ---
 
-# ✅ Checklist de Objetivos - Día 4
+# ✅ Checklist de Entregables — Día 5
+
+> [!IMPORTANT]
+> Asegúrate de completar todos los bloques antes de realizar el commit final y subir el video a Loom.
+
+## 🧱 Bloques de Desarrollo
+
+- [ ] **Bloque A** — `getPedidos` en `api.ts` + verificar endpoints con Postman
+- [ ] **Bloque B** — `ComandasPage` Server Component + metadata estática
+- [ ] **Bloque C** — `ComandaCard` Client Component + flujo de estados
+- [ ] **Bloque D** — `avanzarEstadoPedido` Server Action + `revalidatePath`
+- [ ] **Bloque E** — `NavBar` actualizado + `loading` + `error` + verificación TypeScript
+- [ ] **Bloque F** — Evaluación entre pares + Loom + PR
+
+## 🧪 Verificación Final (QA)
+
+- [ ] `/comandas` muestra pedidos reales del backend
+- [ ] Avanzar estado → lista actualizada automáticamente
+- [ ] Flujo `pendiente` → `en_preparacion` → `lista` → `entregada` funciona
+- [ ] `npx tsc --noEmit` → **0 errores**
+- [ ] PR aprobado por sala par
 
 ---
-
-## 🧱 Bloques de Construcción
-- [x] **Bloque A:** `getMesaById` en `api.ts` + verificar con Postman
-- [x] **Bloque B:** `page.tsx` con fetch real + `generateMetadata` + `notFound()`
-- [x] **Bloque C:** `MesaDetalle` Client Component + Suspense manual
-- [x] **Bloque D:** Server Action `cambiarEstadoMesa` + `revalidatePath`
-- [x] **Bloque E:** Verificación TypeScript + flujo completo
-- [x] **Bloque F:** Evaluación entre pares + Loom + PR
-
----
-
-## 🔍 Verificación Final
-- [x] Clic en mesa → `/mesa/[id]` muestra datos reales
-- [x] Pestaña del browser muestra `"Mesa N — Restaurante"`
-- [x] Cambiar estado → la mesa en `/mesas` se actualiza automáticamente
-- [x] `npx tsc --noEmit` → 0 errores de TypeScript
-- [x] PR aprobado por sala par
+*Mantenimiento de calidad de código y arquitectura Next.js App Router.*
