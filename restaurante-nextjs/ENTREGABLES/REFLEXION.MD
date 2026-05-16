@@ -43,5 +43,3 @@
 *   **Paolo:** 
 *   **Joel:** 
 
----
-*Documentación de aprendizaje continuo.*
