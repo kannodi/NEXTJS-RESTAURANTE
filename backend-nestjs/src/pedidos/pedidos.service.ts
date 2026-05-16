@@ -1,8 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { Pedido, EstadoPedido } from '../types';
+import { MesasService } from '../mesas/mesas.service';
 
 @Injectable()
 export class PedidosService {
+  constructor(private readonly mesasService: MesasService) {}
+
   private pedidos: Pedido[] = [
     {
       _id: 'p1',
@@ -28,6 +31,15 @@ export class PedidosService {
       createdAt: new Date().toISOString(),
     };
     this.pedidos.push(nuevoPedido);
+
+    // Si el pedido es para una mesa, actualizamos el pedidoActivoId de la mesa
+    if (nuevoPedido.tipo === 'mesa' && nuevoPedido.mesaId) {
+      this.mesasService.update(nuevoPedido.mesaId, { 
+        pedidoActivoId: nuevoPedido._id,
+        estado: 'ocupada' // Opcional: poner la mesa como ocupada automáticamente
+      });
+    }
+
     return nuevoPedido;
   }
 

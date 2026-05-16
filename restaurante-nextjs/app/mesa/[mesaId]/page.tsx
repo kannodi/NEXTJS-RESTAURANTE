@@ -51,7 +51,13 @@ export default async function MesaPage({ params }: PageProps) {
             {/* Información básica — Server Component */}
             <div className="bg-white rounded-lg p-4 shadow-sm mb-6">
                 <p className="text-gray-600">Capacidad: <span className="font-medium">{mesa!.capacidad} personas</span></p>
-                <p className="text-gray-600">ID: <span className="font-mono text-xs">{mesa!._id}</span></p>
+                <p className="text-gray-600">ID MESA: <span className="font-mono text-xs">{mesa!._id}</span></p>
+                <p className="text-gray-600">
+                    ID PEDIDO: <span className="font-mono text-xs">
+                        {mesa.pedidoActivoId ? mesa.pedidoActivoId : 'Sin pedido activo'}
+                    </span>
+                </p>
+
             </div>
 
             {/* Suspense manual — MesaDetalle es Client Component con interacción */}

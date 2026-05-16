@@ -2,6 +2,7 @@
 // 'use server' al inicio — todas las funciones exportadas son Server Actions
 'use server';
 
+import { revalidatePath } from 'next/cache';
 import type { EstadoPedidoContext, Pedido } from '../../src/types';
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL;//direccion del backend
@@ -34,8 +35,14 @@ export async function enviarComanda(pedido: EstadoPedidoContext): Promise<{ ok: 
         }
         // le da el json que devuelve nestjs a nuevoPedido
         const nuevoPedido: Pedido = await res.json();
-        console.log('Nuevo pedido:', nuevoPedido);
-        return { ok: true, pedidoId: nuevoPedido._id };// retorna el ok en true y pedidoId con el _id del pedido creado en el BACKEND
+
+        // REVALIDAR: Importante para que el detalle de la mesa vea el nuevo pedidoActivoId
+        revalidatePath('/mesas');
+        if (pedido.mesaId) {
+            revalidatePath(`/mesa/${pedido.mesaId}`);
+        }
+
+        return { ok: true, pedidoId: nuevoPedido._id };
 
     } catch (err: unknown) {
         const mensaje = err instanceof Error ? err.message : "Error desconocido";
