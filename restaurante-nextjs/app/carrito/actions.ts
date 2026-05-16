@@ -36,7 +36,8 @@ export async function enviarComanda(pedido: EstadoPedidoContext): Promise<{ ok: 
         // le da el json que devuelve nestjs a nuevoPedido
         const nuevoPedido: Pedido = await res.json();
 
-        // REVALIDAR: Importante para que el detalle de la mesa vea el nuevo pedidoActivoId
+        // REVALIDAR: Comentado para ver la diferencia
+
         revalidatePath('/mesas');
         if (pedido.mesaId) {
             revalidatePath(`/mesa/${pedido.mesaId}`);
