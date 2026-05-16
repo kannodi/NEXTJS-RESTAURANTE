@@ -30,7 +30,9 @@
 **Pregunta:** ¿`revalidatePath` fue lo que predijiste? ¿Actualiza en tiempo real o al siguiente request?
 
 *   **Paolo:** revalidate, actualiza los datos inmediatamente de hacer un patch, primero borra el cache y envia a nextjs a recargar ese  vista
-*   **Joel:** 
+*   **Joel:** revalidatePath borra el caché de esa ruta en el servidor, pero la actualización no es en tiempo real.
+La página se regenera con datos frescos en el siguiente request que haga algún usuario.
+Es decir, después del PATCH, el cache queda invalidado, y la próxima visita a esa ruta verá los datos actualizados.
 
 ---
 
