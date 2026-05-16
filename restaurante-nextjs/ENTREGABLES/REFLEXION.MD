@@ -6,49 +6,42 @@
 ---
 
 ### ⏱ Feedback 30 segundos — Bloque A
-
 **¿El backend tiene filtro por estado o hay que filtrar en el frontend?**
 
 *   **Paolo:** 
 *   **Joel:** 
 
-<br/>
+---
 
 ### ⏱ Feedback 30 segundos — Bloque B
-
 **¿La predicción sobre `generateMetadata` síncrona fue correcta?**
 
 *   **Paolo:** 
 *   **Joel:** 
 
-<br/>
+---
 
 ### ⏱ Feedback 30 segundos — Bloque C
-
 **¿La tabla de flujo de estados fue clara antes de escribir SIGUIENTE?**
 
 *   **Paolo:** 
 *   **Joel:** 
 
-<br/>
+---
 
 ### ⏱ Feedback 30 segundos — Bloque D
-
 **¿La lista se actualizó automáticamente o necesitaron `router.refresh()`?**
 
 *   **Paolo:** 
 *   **Joel:** 
 
-<br/>
+---
 
 ### ⏱ Feedback 30 segundos — Bloque E
-
 **¿Cuántos errores TypeScript había?**
 
 *   **Paolo:** 
 *   **Joel:** 
-
-<br/>
 
 ---
 *Documentación de aprendizaje continuo.*
