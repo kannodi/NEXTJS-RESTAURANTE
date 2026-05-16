@@ -40,6 +40,6 @@ Es decir, después del PATCH, el cache queda invalidado, y la próxima visita a 
 **Pregunta:** ¿Cuántos errores TypeScript había antes de resolver?
 
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Como la mayor parte ya estaba concluida, ya no encontramos mas errores de TS.
 
 ---
