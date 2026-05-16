@@ -39,7 +39,7 @@ Es decir, después del PATCH, el cache queda invalidado, y la próxima visita a 
 ## ⏱ Feedback 30 segundos — Bloque E
 **Pregunta:** ¿Cuántos errores TypeScript había antes de resolver?
 
-*   **Paolo:** 
+*   **Paolo:** En el transcurro de los bloques hay errores, pero al finalizarlos estos ya no existen, desde el ultimo bloque habian 0 errores
 *   **Joel:** Como la mayor parte ya estaba concluida, ya no encontramos mas errores de TS.
 
 ---
