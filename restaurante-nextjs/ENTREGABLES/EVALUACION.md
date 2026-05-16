@@ -4,31 +4,33 @@
 
 ### 1. ¿Qué hace `notFound()` y cuándo se llama en este proyecto?
 *   **Paolo:** Se posiciona como page y muestra la pagina 404, cuando la ruta no existe, con el redireccion a las mesas
-*   **Joel:** 
+*   **Joel:** notFound() se encarga de mostrar la vista 404 en caso la mesa no exista. En caso de que esta no se encuntre  en la api, se lanzara este error y se mostrará 404. Esta funcion es llamada cuando la peticion a la api falla o cuando el id de la mesa no existe.
 
 ---
 
 ### 2. ¿Por qué MesaDetalle usa `useTransition` y no un simple `useState<boolean>` para el loading?
 *   **Paolo:** Con usetransition es mas simplificado, esperara ya que este client component esta encerrado en un fallback suspense, cuando se haga el await de la funcion este cargara el skeleton 
-*   **Joel:** 
+*   **Joel:** useTransition evita tener que escribir manualmente setLoading(true) / setLoading(false) con try/catch/finally. Nos da isPending automáticamente mientras la acción corre. Con useState<boolean> necesitarías más código y es fácil olvidar el finally.
 
 ---
 
 ### 3. ¿`revalidatePath` actualiza la página en tiempo real o al próximo request?
 *   **Paolo:** Primero borra la cache de las rutas declaradas y luego hace una peticion a nextjs para actualizar con los nuevos datos
-*   **Joel:** 
+
+*   **Joel:** reavalidatePath es usado para limpiar el cache de una ruta en especifico. Si lo usamos después de hacer un cambio, nextjs lo interpretara como que debe limpiar el cache de esa ruta y regenerarla. No es en tiempo real, pero es casi inmediato.
 
 ---
 
 ### 4. ¿`generateMetadata` puede fallar (ej: backend caído)? ¿Qué pasa con la página si falla?
 *   **Paolo:** En el generatemetada tenemos un control de errores, si falla en la pestaña se vera el tipo de error acompañado de la pag de error
-*   **Joel:** 
+
+*   **Joel:** generateMetadata si puede fallar. En nuestro proyecto lo manejamos con try/catch dentro de generateMetadata — si falla, retornamos un metadata por defecto. La página no se cae, solo muestra un título genérico en la pestaña..
 
 ---
 
 ### 5. ¿Cómo actualizarías el badge del NavBar inmediatamente al cambiar el estado de una mesa sin navegar?
 *   **Paolo:** tendria que estar el contexto de la mesa en el nav, luego pedir el estado de la mesa y llamarlo con etiquetas html, segun haya o no mesa mostramos lo que queremos
-*   **Joel:** 
+*   **Joel:** Para actualizar el badge inmediatamente sin navegar, necesitaríamos un Context o estado global en el cliente (como useMesasContext). revalidatePath solo funciona para el próximo request — no actualiza componentes ya renderizados en pantalla.
 
 ---
 
