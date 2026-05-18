@@ -21,6 +21,7 @@ export default function NavBar() {
                 <li><Link href='/mesas' className={esActiva('/mesas')}>Mesas</Link></li>
                 <li><Link href='/menu' className={esActiva('/menu')}>Menú</Link></li>
                 <li><Link href='/carrito' className={esActiva('/carrito')}>Carrito</Link></li>
+                <li><Link href='/comandas' className={esActiva('/comandas')}>Comandas</Link></li>
             </ul>
             {/* carrito */}
             {totalUnidades > 0 && (
