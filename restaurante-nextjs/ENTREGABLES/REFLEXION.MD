@@ -16,7 +16,7 @@
 ### ⏱ Feedback 30 segundos — Bloque B
 **¿La predicción sobre `generateMetadata` síncrona fue correcta?**
 
-*   **Paolo:** 
+*   **Paolo:** Si, ya que lista de comandas para los admins sera una page estatica, no necesitamos algun async/await, solo mostrar el "comandas | restaurante"
 *   **Joel:** 
 
 ---
