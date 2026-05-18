@@ -25,7 +25,7 @@
 **¿La tabla de flujo de estados fue clara antes de escribir SIGUIENTE?**
 
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Si, ya que no se puede pasar de lista a pendiente, ni de cancelada a pendiente, etc. Y el boton "SIGUIENTE" solo aparecera si es que se puede pasar de estado.
 
 ---
 
