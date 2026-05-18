@@ -25,10 +25,10 @@
 **¿`generateMetadata` necesita `async` en `/comandas`? ¿Necesita hacer fetch para construir el título?**
 
 *   **¿Puede ser síncrona?**
-    *   **Paolo:** 
+    *   **Paolo:** No lo necesita
     *   **Joel:** 
 *   **¿Por qué?**
-    *   **Paolo:** 
+    *   **Paolo:** Comandas sera una page estatica a comparacion de mesa que mostrara mesa encontrada o mesa inexistente o carrito que muestra el total de pedidos segun la cantidad dentro de este carrito
     *   **Joel:** 
 
 <br/>
