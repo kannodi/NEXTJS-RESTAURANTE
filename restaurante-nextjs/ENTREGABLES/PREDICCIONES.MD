@@ -10,10 +10,10 @@
 **¿El backend tiene `GET /pedidos?estado=pendiente` para filtrar? Verificarlo con Postman antes de escribir código.**
 
 *   **¿Funciona el filtro?**
-    *   **Paolo:** 
+    *   **Paolo:** No, asi que para filtrar los pedidos no podemos depender del backend, tendremos que hacerlo con el filter en frontend, llamando todos los pedidos usar filter === pendiente/preparacion
     *   **Joel:** 
 *   **URL exacta del PATCH para cambiar estado:**
-    *   **Paolo:** 
+    *   **Paolo:** http://localhost:3001/pedidos/:id/estado , en  :id va el id del pedido y en el body debe enviar el json haciendo patch a estado: y el nuevo estado
     *   **Joel:** 
 
 <br/>
