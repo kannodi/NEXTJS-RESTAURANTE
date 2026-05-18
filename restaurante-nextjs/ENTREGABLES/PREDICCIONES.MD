@@ -11,10 +11,10 @@
 
 *   **¿Funciona el filtro?**
     *   **Paolo:** 
-    *   **Joel:** 
+    *   **Joel:** Eso todavia no funciona, solo muestra todos los pedidos.
 *   **URL exacta del PATCH para cambiar estado:**
     *   **Paolo:** 
-    *   **Joel:** 
+    *   **Joel:** /pedidos/:id/estado
 
 <br/>
 
