@@ -8,7 +8,7 @@
 ### ⏱ Feedback 30 segundos — Bloque A
 **¿El backend tiene filtro por estado o hay que filtrar en el frontend?**
 
-*   **Paolo:** 
+*   **Paolo:** El backend que creamos con antigravity para que se integre con nuestro frontend, no tiene ese filtro en su codigo, por lo que tendremos que filtrarlo en el frontend con filter.
 *   **Joel:** 
 
 ---
