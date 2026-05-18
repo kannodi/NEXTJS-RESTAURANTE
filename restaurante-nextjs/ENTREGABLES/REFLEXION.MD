@@ -9,7 +9,7 @@
 **¿El backend tiene filtro por estado o hay que filtrar en el frontend?**
 
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** El filtro se hace en el frontend.
 
 ---
 
