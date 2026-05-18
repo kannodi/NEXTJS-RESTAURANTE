@@ -24,7 +24,7 @@
 ### ⏱ Feedback 30 segundos — Bloque C
 **¿La tabla de flujo de estados fue clara antes de escribir SIGUIENTE?**
 
-*   **Paolo:** 
+*   **Paolo:** Se me complico un poco entenderlo pero luego se aclara, el crear un objeto para luego declararlo con una linea de tren donde solo se puede ir para adelante
 *   **Joel:** Si, ya que no se puede pasar de lista a pendiente, ni de cancelada a pendiente, etc. Y el boton "SIGUIENTE" solo aparecera si es que se puede pasar de estado.
 
 ---

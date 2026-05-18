@@ -40,10 +40,10 @@
 **¿Qué muestra `ComandaCard` para un pedido tipo "para_llevar" donde `mesaId` es `null`?**
 
 *   **Para un pedido "para_llevar" muestra:**
-    *   **Paolo:** 
+    *   **Paolo:** En vista deberiamos indicarle al cliente que este pedido como no llevara mesa y pasara ser a null, una vista que su pedido sera para llevar
     *   **Joel:** 
 *   **Para un pedido "mesa" muestra:**
-    *   **Paolo:** 
+    *   **Paolo:** En la vista se mostrara el numero id de la mesa y la orden
     *   **Joel:** 
 
 <br/>
