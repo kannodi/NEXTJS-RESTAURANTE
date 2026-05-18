@@ -11,10 +11,10 @@
 
 *   **¿Funciona el filtro?**
     *   **Paolo:** No, asi que para filtrar los pedidos no podemos depender del backend, tendremos que hacerlo con el filter en frontend, llamando todos los pedidos usar filter === pendiente/preparacion
-    *   **Joel:** 
+    *   **Joel:** Eso todavia no funciona, solo muestra todos los pedidos.
 *   **URL exacta del PATCH para cambiar estado:**
     *   **Paolo:** http://localhost:3001/pedidos/:id/estado , en  :id va el id del pedido y en el body debe enviar el json haciendo patch a estado: y el nuevo estado
-    *   **Joel:** 
+    *   **Joel:** /pedidos/:id/estado
 
 <br/>
 
