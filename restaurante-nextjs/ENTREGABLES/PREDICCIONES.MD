@@ -26,10 +26,10 @@
 
 *   **¿Puede ser síncrona?**
     *   **Paolo:** No lo necesita
-    *   **Joel:** 
+    *   **Joel:** Puede serlo, pero no es necesario.
 *   **¿Por qué?**
     *   **Paolo:** Comandas sera una page estatica a comparacion de mesa que mostrara mesa encontrada o mesa inexistente o carrito que muestra el total de pedidos segun la cantidad dentro de este carrito
-    *   **Joel:** 
+    *   **Joel:** Porque solo mostraremos la lista de pedidos, sin necesidad de usar datos dinamicos, a diferencia de mesa que necesitara el id para mostrar el estado de la mesa.
 
 <br/>
 
