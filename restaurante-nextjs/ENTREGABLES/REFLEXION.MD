@@ -40,6 +40,6 @@
 ### ⏱ Feedback 30 segundos — Bloque E
 **¿Cuántos errores TypeScript había?**
 
-*   **Paolo:** 
+*   **Paolo:** No habian errores, pero en el transcurso de los bloques, por dar un ejemplo, el bloque b nos pedia en criterio algo del c, entonces daba error y tuvimos que comentar y pasar al siguiente sin completar el criterio
 *   **Joel:** 
 
