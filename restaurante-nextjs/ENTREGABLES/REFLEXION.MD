@@ -32,7 +32,7 @@
 ### ⏱ Feedback 30 segundos — Bloque D
 **¿La lista se actualizó automáticamente o necesitaron `router.refresh()`?**
 
-*   **Paolo:** 
+*   **Paolo:**  Se actualizo automaticamente gracias a revalidatepath, borra la cache y vuelve a traer los datos actualizados EN EL SERVIDOR, router refresh esta dirigido para el usuario no administrador, para que vea cambios en el front sin recargar
 *   **Joel:** 
 
 ---
