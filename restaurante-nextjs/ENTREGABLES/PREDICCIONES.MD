@@ -41,10 +41,10 @@
 
 *   **Para un pedido "para_llevar" muestra:**
     *   **Paolo:** En vista deberiamos indicarle al cliente que este pedido como no llevara mesa y pasara ser a null, una vista que su pedido sera para llevar
-    *   **Joel:** 
+    *   **Joel:** En este caso muestra debe mostrar un texto que indica que es para llevar.
 *   **Para un pedido "mesa" muestra:**
     *   **Paolo:** En la vista se mostrara el numero id de la mesa y la orden
-    *   **Joel:** 
+    *   **Joel:** En este caso muestra un texto que indica el numero de la mesa.
 
 <br/>
 
