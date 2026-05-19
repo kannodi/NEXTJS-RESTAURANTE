@@ -55,10 +55,10 @@
 **Si `avanzarEstadoPedido()` llama a `revalidatePath("/comandas")` en el servidor, ¿`ComandasPage` hace el fetch automáticamente o el usuario tiene que recargar?**
 
 *   **¿La lista se actualiza automáticamente?**
-    *   **Paolo:** 
+    *   **Paolo:** El usuario hace uso de parte del metodo importado revalidatepath, usando el boton, para que la action haga el trabajo
     *   **Joel:** Si, la lista se actualiza automaticamente porque se uso revalidatePath.
 *   **¿`router.refresh()` sería necesario en el Cliente?**
-    *   **Paolo:** 
+    *   **Paolo:** No ya que revalidatepath se encarga de eso, el router refresh es recomendado para el cliente final ya que 
     *   **Joel:** No es necesario.
 
 <br/>
