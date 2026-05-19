@@ -56,10 +56,10 @@
 
 *   **¿La lista se actualiza automáticamente?**
     *   **Paolo:** 
-    *   **Joel:** 
+    *   **Joel:** Si, la lista se actualiza automaticamente porque se uso revalidatePath.
 *   **¿`router.refresh()` sería necesario en el Cliente?**
     *   **Paolo:** 
-    *   **Joel:** 
+    *   **Joel:** No es necesario.
 
 <br/>
 

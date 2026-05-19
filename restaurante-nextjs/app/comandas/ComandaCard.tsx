@@ -2,7 +2,7 @@
 
 import { useTransition } from 'react';
 import type { Pedido, EstadoPedido } from '../../src/types';
-//import { avanzarEstadoPedido } from '../actions';
+import { avanzarEstadoPedido } from './actions';
 
 // Flujo del negocio — solo estados con siguiente
 const SIGUIENTE: Partial<Record<EstadoPedido, EstadoPedido>> = {
@@ -30,8 +30,8 @@ export default function ComandaCard({ pedido }: { pedido: Pedido }) {
     const handleAvanzar = (): void => {
         if (!siguiente) return;
         startTransition(async () => {
-            /*const r = await avanzarEstadoPedido(pedido._id, siguiente);
-            if (!r.ok) alert(`Error: ${r.error}`);*/
+            const r = await avanzarEstadoPedido(pedido._id, siguiente);
+            if (!r.ok) alert(`Error: ${r.error}`);
         });
     };
 
