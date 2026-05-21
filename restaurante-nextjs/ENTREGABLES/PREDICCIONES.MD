@@ -33,10 +33,10 @@
 ### Si el backend no está corriendo cuando ejecutas `npm run build`, ¿el build va a fallar para las páginas con `generateMetadata` async que hacen fetch?
 *   **¿El build falla si el backend está caído?** 
     *   **Paolo:** 
-    *   **Joel:** 
+    *   **Joel:** Si el backend no esta corriendo cuando se ejecuta el npm run build, el build va a fallar.
 *   **¿Por qué?** 
     *   **Paolo:** 
-    *   **Joel:** 
+    *   **Joel:** Fallara en las paginas que utilizan la funcion generateMetadata, ya que estas paginas hacen fetch a la API del backend para obtener los datos que se necesitan para generar los metadatos.
 
 ---
 *Análisis previo y control de calidad en entornos de producción Next.js.*
