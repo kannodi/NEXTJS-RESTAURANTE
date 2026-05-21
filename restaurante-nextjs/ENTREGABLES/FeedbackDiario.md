@@ -1,57 +1,41 @@
-# 📝 Feedback Integrado del Día
+# 📝 Feedback Integrado del Día — Día 6
 
 > [!TIP]
-> Reflexión diaria sobre el proceso de aprendizaje y el estado del proyecto.
+> Espacio de retroalimentación sobre el proceso de aprendizaje conjunto, dificultades técnicas y preparación del despliegue final.
 
 ---
 
-### 🧠 Autoevaluación
+## 👥 Preguntas y Respuestas del Par
 
-#### 1. ¿`generateMetadata` fue intuitivo o confuso al principio?
-
-*   **Paolo:** 
-*   **Joel:** 
-
-<br/>
-
-#### 2. ¿`revalidatePath` fue lo que esperaban, o esperaban actualización en tiempo real?
-
-*   **Paolo:** 
-*   **Joel:** 
-
-<br/>
-
-#### 3. ¿`useTransition` fue más claro o confuso que un `useState<boolean>`?
-
-*   **Paolo:** 
-*   **Joel:** 
-
-<br/>
-
-#### 4. ¿El tiempo fue suficiente para los 6 bloques?
-
-*   **Paolo:** 
-*   **Joel:** 
-
-<br/>
+### 1. ¿El `npm run build` tuvo errores? ¿Cuáles y cómo los resolvieron?
+*   **Respuesta:** 
 
 ---
 
-### 🚀 Estado del Proyecto
+### 2. ¿La auditoría del Bloque C encontró algo inesperado?
+*   **Respuesta:** 
 
-**¿El proyecto restaurante-nextjs está listo para el Día 5?**
+---
 
-- [ ] **SÍ**
-- [ ] **NO**
-- [ ] **PARCIAL**
+### 3. ¿Qué es lo más complejo que tendría que resolver alguien que clone el proyecto desde cero?
+*   **Respuesta:** 
 
-<br/>
+---
 
-**Calificación general de la actividad (1-5):**
+### 4. ¿El tiempo fue suficiente para los 6 bloques?
+*   **Respuesta:** 
+
+---
+
+### 5. ¿El proyecto está listo para el deploy del Día 7?
+*   **Estado:** `SÍ` / `NO` / `PARCIAL`
+*   **Detalle:** 
+
+---
+
+### 🏆 Calificación General de la Actividad (1-5)
 
 > ⭐ ** ** / 5
 
-<br/>
-
 ---
-*Métrica de satisfacción y progreso del equipo.*
+*Métrica de progreso, sincronización y calidad técnica del equipo par.*

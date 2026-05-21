@@ -1,61 +1,66 @@
-# 🔄 Evaluación entre Pares — Día 5
+# 🔄 Evaluación entre Pares — Día 6
+
+> [!NOTE]
+> Evaluación de arquitectura de metadatos, optimización de compilación y estructura de rutas en Next.js App Router.
 
 ---
 
-#### 1. ¿Por qué `ComandasPage` puede usar `export const metadata = {}` sin `async`, pero `DetalleMesa` necesita `export async function generateMetadata()`?
+## 📋 Preguntas con Respuesta Esperada
 
-*   **Paolo:** Ya que comandaspage es una pagina de administrador, sera una pagina estatica, a comparacion de detalles mesas que cambiaremos la pestaña de mesa segun el id de la mesa 
-
-*   **Joel:** ComandasPage puede usar `export const metadata = {}` sin `async` porque no necesita datos dinámicos para generar los metadatos, mientras que `DetalleMesa` necesita `export async function generateMetadata()` porque necesita datos dinámicos (el ID de la mesa) para generar los metadatos.
-
-<br/>
-
-#### 2. ¿Qué hace `Partial<Record<EstadoPedido, EstadoPedido>>` y por qué es necesario?
-
-*   **Paolo:** Define un objeto cuyas llaves y valores pertenecen al tipo `EstadoPedido`, pero gracias a `Partial`, todas las llaves se vuelven opcionales en lugar de obligatorias. Es necesario porque en nuestro flujo de transiciones (`SIGUIENTE`), los estados finales `'entregada'` y `'cancelada'` no tienen un estado posterior. `Partial` nos permite omitir estos estados finales de la lista sin que TypeScript arroje un error de compilación por llaves incompletas.
-
-*   **Joel:** Lo que hace `Partial<Record<EstadoPedido, EstadoPedido>>` es crear un objeto donde las claves son los estados del pedido y los valores son los estados del pedido, y luego hace que todas las propiedades sean opcionales. Esto es necesario porque `transitionState` es un objeto que contiene las transiciones de estado del pedido y `partial` hace que todas las propiedades sean opcionales, lo que permite que el objeto sea `undefined`. Sin `partial`, el objeto sería `required` y no podría ser `undefined`.
-
-<br/>
-
-#### 3. ¿`revalidatePath` actualiza en tiempo real o al próximo request?
-
-*   **Paolo:** En nuestro caso como admin, al ejecutar una action con revalidatePath, actualiza en tiempo real, como si hubiera presionado f5, ya que borra la cache y manda a nextjs a renderizar el componente del servidor, para que los demas usuarios dentro de la pagina como el cliente vea los cambios, tendra que recargar la pagina o usar un router refresh, para que cargue cierta parte de la app y mostrar datos nuevos
-
-*   **Joel:** En el caso de revalidatePath se actualiza al próximo request, ya que esta funcion lo que hace es invalidar la cache de la ruta especificada, y esto provoca que la próxima vez que se acceda a la ruta, se vuelva a generar la página. Por lo tanto no es en tiempo real.
-
-<br/>
-
-#### 4. ¿Cuáles son los 3 Server Actions del proyecto y qué hace cada uno?
-
-*   **Paolo:** agregamos las actions para las pags, carrito, comandas y mesas
-
-*   **Joel:** Los Server Actions del proyecto son: 
-    1. `crearPedido`: Crea un pedido en la base de datos.
-    2. `actualizarEstadoPedido`: Actualiza el estado de un pedido en la base de datos.
-    3. `actualizarEstadoPago`: Actualiza el estado de pago de un pedido en la base de datos.
-
-<br/>
-
-#### 5. ¿Qué pasaría si el backend rechaza la transición por regla de negocio?
-
-*   **Paolo:** En caso en el server actions capturamos el error y damos el mensaje de error en el backend, tambien comandacard mostrara una alerta con el error
-
-*   **Joel:** Si el Backend rechazara la transicion por regla de negocio, la funcion actualizarEstadoPedido lanzaria un error y se mostraria un mensaje de error en la consola del navegador y no se actualizaría el estado del pedido.
-
-<br/>
+### 1. ¿Por qué `CarritoPage` no puede exportar metadata y las otras páginas sí?
+*   **Paolo:** 
+*   **Joel:** 
 
 ---
 
-### 🏆 Pregunta Bonus — Demostración en Vivo
+### 2. ¿Qué hace `metadata.title.template` en `layout.tsx`?
+*   **Paolo:** 
+*   **Joel:** 
+
+---
+
+### 3. ¿Por qué es importante limpiar los `console.log` antes del deploy?
+*   **Paolo:** 
+*   **Joel:** 
+
+---
+
+### 4. ¿Qué indica el icono `λ` (Lambda) en la salida de `npm run build`?
+*   **Paolo:** 
+*   **Joel:** 
+
+---
+
+### 5. Si mañana el equipo quiere agregar una nueva ruta `/historial` que muestre pedidos por fecha, ¿qué archivos necesitan crear en `restaurante-nextjs/`?
+*   **Paolo:** 
+*   **Joel:** 
+
+---
+
+## 🏆 Pregunta Bonus — Demostración en Vivo
 
 > [!IMPORTANT]
-> **Reto:** "Agrega un badge en el NavBar para `/comandas` con el número de comandas pendientes."
+> **Reto:** *"Agrega a `next.config.ts` una redirección: si alguien visita `/carta`, debe ser redirigido a `/menu`."*
+> 
+> *   **Tiempo:** 5 minutos. Solo en `next.config.ts` — sin buscar en internet.
+> *   **Pista:** `next.config.ts` tiene un método `async redirects()` similar a `async headers()`.
 
-*   **Tiempo:** 8 minutos. Sin buscar en internet.
-*   **Pista:** `NavBar` es Client Component. Necesita hacer fetch de `/pedidos` desde el cliente o recibir el conteo como prop desde `layout.tsx` (Server Component que puede hacer el fetch).
-
-<br/>
 
 ---
-*Evaluación de arquitectura y flujo de datos en Next.js.*
+
+## 🎬 Estructura Obligatoria del Video Loom (5 minutos)
+
+> [!WARNING]
+> **Escena obligatoria:** Mostrar la salida del `npm run build` exitoso y navegar por todas las rutas con sus títulos únicos. Sin estas tomas el video no será válido.
+
+*   **Minuto 1 — Integrante A (Sin apuntes):**
+    Explicar cuáles páginas pueden exportar metadata y cuáles no, justificando el porqué. Listar las rutas del proyecto indicando si usan metadatos estáticos o dinámicos.
+    
+*   **Minutos 2-4 — Integrante B (Compartir pantalla EN VIVO):**
+    Navegar por todas las rutas del proyecto mostrando los títulos dinámicos y únicos en la pestaña del browser. Luego, mostrar la salida completa y exitosa de `npm run build` en la terminal, demostrando que compila a la perfección.
+    
+*   **Minuto 5 — Ambos Integrantes:**
+    Debatir si el proyecto está listo para el deploy del Día 7 y listar qué configuraciones críticas de variables de entorno y dominios faltan ajustar en el panel de Vercel.
+
+---
+*Evaluación de calidad de código y preparación para el despliegue en producción.*
