@@ -20,10 +20,10 @@
 
 ### Si el restaurante usa imágenes de platos almacenadas en un servicio externo (como Cloudinary o AWS S3), ¿qué hay que configurar en `next.config.ts` para que `<Image>` de Next.js las muestre?
 *   **¿Dónde se configura para imágenes externas?** 
-    *   **Paolo:** 
+    *   **Paolo:** Para que nuestra app acepte y trate las imagenes debemos darle permisos dentro de la config de next.config.ts y estar seguros de donde vienen, estas seran optimizadas por el servidor de nextjs, debemos saber bien de donde aceptamos imagenes para no ser afectados por atacantes
     *   **Joel:** para la configuracion de imagenes externas se debe de configurar en el archivo next.config.ts, en la propiedad images.
 *   **¿Qué campo de `next.config.ts` controla eso?** 
-    *   **Paolo:** 
+    *   **Paolo:** El campo que controla esto es el objeto `images` y, dentro de este, el arreglo `remotePatterns` (patrones remotos). En este arreglo definimos objetos con los campos `protocol`, `hostname` y `pathname` para autorizar servidores específicos (como Cloudinary o AWS S3) de forma segura.
     *   **Joel:** El campo de next.config.ts que controla la configuracion de imagenes externas es la propiedad images, que debe tener un arreglo en remotePatterns, y dentro de ese arreglo un objeto con la propiedad hostname y protocol.
 
 ---

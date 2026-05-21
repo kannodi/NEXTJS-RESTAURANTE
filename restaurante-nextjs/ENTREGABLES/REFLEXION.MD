@@ -16,7 +16,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque B
 
 ### ¿`robots: { index: false }` fue una decisión que esperaban en una app de restaurante? ¿Por qué importa?
-*   **Paolo:** 
+*   **Paolo:** Si lo esperaba ya que no todo deberia ser encontrado en el motor del buscador, es mejor solo las secciones importantes de la pagina
 *   **Joel:** 
 
 ---
