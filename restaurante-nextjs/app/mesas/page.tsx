@@ -3,9 +3,13 @@ import type { Mesa } from '../../src/types';
 import { getMesas } from '../../src/services/api';
 import MesaCard from './MesaCard';
 
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
     title: 'Mesas — Restaurante',
-};
+};*/
+export const metadata: Metadata = {
+    title: 'Mesas — Sistema de Restaurante',
+    description: 'Gestiona las mesas del restaurante — ve su estado y asigna comandas.',
+}
 
 // La función es async — puede hacer await directamente
 export default async function MesasPage() {

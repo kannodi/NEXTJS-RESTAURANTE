@@ -1,4 +1,9 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Página no encontrada — Sistema de Restaurante',
+}
 
 export default function NotFound() {
     return (

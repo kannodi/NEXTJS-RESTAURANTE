@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react';
 // Para este proyecto lo dejamos sin metadata especial
 
 export default function CarritoPage() {
+
     const { pedido, quitarPlato, limpiarPedido, cambiarTipo } = usePedido();
     const [enviando, setEnviando] = useState<boolean>(false);
     const [confirmacion, setConfirmacion] = useState<string | null>(null);
@@ -18,6 +19,13 @@ export default function CarritoPage() {
     const router = useRouter();
     const totalUnidades = pedido.items.reduce((acc, item) => acc + item.cantidad, 0);//cantidad de pedidos
     const totalVisual = pedido.items.reduce((acc: number, item: PedidoItem) => acc + item.precioUnitario * item.cantidad, 0);//total visual
+
+    // Cambia el título de la pestaña según el estado del carrito
+    useEffect(() => {
+        document.title = pedido.items.length > 0
+            ? `Carrito (${pedido.items.length}) — Sistema de Restaurante`
+            : 'Carrito — Sistema de Restaurante';
+    }, [pedido.items.length]);
 
     // El handler que llama al Server Action:
     const handleEnviar = async (): Promise<void> => {
