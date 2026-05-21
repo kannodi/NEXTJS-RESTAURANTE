@@ -25,7 +25,7 @@
 
 ### ¿Encontraron algo inesperado en la auditoría? ¿Qué fue lo más común?
 *   **Paolo:** Muchos comentarios que describian partes de funciones y porque existian, aparte de console logs para probar la api en algunas page
-*   **Joel:** 
+*   **Joel:** Lo encontrado fueron varios comentarios y funciones de manejo y captura de errores.
 
 ---
 
