@@ -9,14 +9,14 @@
 
 ### ¿`CarritoPage` puede exportar metadata? ¿Por qué sí o por qué no?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** No, no puede
 
 ### ¿Qué hace que sea imposible? 
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** La razon se eso es que es un componente del cliente y no puede exportar metadata.
 
 ---
-
+S
 ## 🧱 Predicción B — Optimización de Imágenes
 
 ### Si el restaurante usa imágenes de platos almacenadas en un servicio externo (como Cloudinary o AWS S3), ¿qué hay que configurar en `next.config.ts` para que `<Image>` de Next.js las muestre?
