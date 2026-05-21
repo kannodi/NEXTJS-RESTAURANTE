@@ -2,8 +2,8 @@
 sala: I-SALA1
 curso: Next.js
 dia: 5
-estado: en_progreso
-loom: (agregar link al terminar)
+estado: entregado
+loom: https://www.loom.com/share/7fe15bc6010b49c9b16a085b041df3b4
 ---
 
 # ✅ Checklist de Entregables — Día 5
