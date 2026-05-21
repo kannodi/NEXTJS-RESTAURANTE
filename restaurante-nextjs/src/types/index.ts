@@ -1,5 +1,4 @@
 // Archivo central de tipos del restaurante-frontend
-// Todos los tipos se exportan desde aquí — no declarar en otros archivos
 // src/types/index.ts
 
 // 1. Estados (Union Types)
