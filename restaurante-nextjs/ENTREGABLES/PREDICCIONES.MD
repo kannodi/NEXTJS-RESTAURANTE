@@ -9,11 +9,10 @@
 
 ### ¿`CarritoPage` puede exportar metadata? ¿Por qué sí o por qué no?
 *   **Paolo:** No puede ya que es Client Component 
-*   **Joel:** 
-
+*   **Joel:** No, no puede
 ### ¿Qué hace que sea imposible? 
 *   **Paolo:** Esto es ya que un userclient llega luego para la pagina ya renderizada por el servidor, es por eso que usamos un useEffect para que se ejecute luego de renderizar y declarar el titulo
-*   **Joel:** 
+*   **Joel:** La razon se eso es que es un componente del cliente y no puede exportar metadata.
 
 ---
 
