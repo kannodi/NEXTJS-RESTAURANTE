@@ -8,7 +8,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque A
 
 ### ¿La predicción sobre `CarritoPage` fue correcta? ¿Qué implica que Client Components no puedan exportar metadata?
-*   **Paolo:** 
+*   **Paolo:** si fue correcta, client components no pueden ya que los metadatos se inyectan obligatoriamente en el servidor, ya que estamos en una page de cliente hacemos uso del hook useeffect para poder modificar el titulo dinamicamente
 *   **Joel:** 
 
 ---

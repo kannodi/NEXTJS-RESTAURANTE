@@ -8,11 +8,11 @@
 ## 🧱 Predicción A — Arquitectura de Metadatos
 
 ### ¿`CarritoPage` puede exportar metadata? ¿Por qué sí o por qué no?
-*   **Paolo:** 
+*   **Paolo:** No puede ya que es Client Component 
 *   **Joel:** 
 
 ### ¿Qué hace que sea imposible? 
-*   **Paolo:** 
+*   **Paolo:** Esto es ya que un userclient llega luego para la pagina ya renderizada por el servidor, es por eso que usamos un useEffect para que se ejecute luego de renderizar y declarar el titulo
 *   **Joel:** 
 
 ---
