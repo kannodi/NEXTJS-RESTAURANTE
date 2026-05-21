@@ -24,7 +24,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque C
 
 ### ¿Encontraron algo inesperado en la auditoría? ¿Qué fue lo más común?
-*   **Paolo:** 
+*   **Paolo:** Muchos comentarios que describian partes de funciones y porque existian, aparte de console logs para probar la api en algunas page
 *   **Joel:** 
 
 ---
