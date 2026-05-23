@@ -33,7 +33,7 @@
 
 ### ¿El build tuvo errores? ¿Cuáles y cómo los resolvieron?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** El build no tuvo errores, compiló correctamente y generó la versión de producción sin necesidad de intervención ni de arreglar nada.
 
 ---
 
