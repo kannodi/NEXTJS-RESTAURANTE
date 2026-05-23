@@ -9,31 +9,31 @@
 
 ### 1. ¿Por qué `CarritoPage` no puede exportar metadata y las otras páginas sí?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** No puede exportar metadata ya que es un componente del cliente y no puede acceder a la metadata de la pagina.
 
 ---
 
 ### 2. ¿Qué hace `metadata.title.template` en `layout.tsx`?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Lo que hace metadata.title.template es permitirnos modificar el titulo de todas las paginas a la vez, para que la pagina tenga un titulo unico.
 
 ---
 
 ### 3. ¿Por qué es importante limpiar los `console.log` antes del deploy?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Es importante porque los console log acumulan datos impresos en la consola que afectan el rendimiento de la aplicacion.
 
 ---
 
 ### 4. ¿Qué indica el icono `λ` (Lambda) en la salida de `npm run build`?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Ese icono Lambda indica que se esta generando una pagina dinamica, y la letra que le sigue es el hash de la pagina. que suele ser de la ruta o el componente que se esta generando. En nuestro caso indica que se esta generando el componente de menu dinamico que viene desde la data de la api, por lo tanto es un componente dinamico y no estatico. 
 
 ---
 
 ### 5. Si mañana el equipo quiere agregar una nueva ruta `/historial` que muestre pedidos por fecha, ¿qué archivos necesitan crear en `restaurante-nextjs/`?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Los archivos a crear serian /app/historial/page.tsx, el layout lo tomaria de la raiz de la aplicacion y tambien podriamos crear un layout propio para la ruta /historial.
 
 ---
 
