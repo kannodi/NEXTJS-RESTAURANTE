@@ -8,31 +8,31 @@
 ## 📋 Preguntas con Respuesta Esperada
 
 ### 1. ¿Por qué `CarritoPage` no puede exportar metadata y las otras páginas sí?
-*   **Paolo:** 
+*   **Paolo:** Ya que carrito page es una pagina del lado del cliente (use client), tenemos que darselo a traves de una useeffect
 *   **Joel:** No puede exportar metadata ya que es un componente del cliente y no puede acceder a la metadata de la pagina.
 
 ---
 
 ### 2. ¿Qué hace `metadata.title.template` en `layout.tsx`?
-*   **Paolo:** 
+*   **Paolo:** Crea un titulo por defecto para todas las paginas
 *   **Joel:** Lo que hace metadata.title.template es permitirnos modificar el titulo de todas las paginas a la vez, para que la pagina tenga un titulo unico.
 
 ---
 
 ### 3. ¿Por qué es importante limpiar los `console.log` antes del deploy?
-*   **Paolo:** 
+*   **Paolo:** Para dejar la estructura limpia y evitar que el servidor acumule datos innecesarios.
 *   **Joel:** Es importante porque los console log acumulan datos impresos en la consola que afectan el rendimiento de la aplicacion.
 
 ---
 
 ### 4. ¿Qué indica el icono `λ` (Lambda) en la salida de `npm run build`?
-*   **Paolo:** 
+*   **Paolo:** Indica que es una pagina dinamica, lo marca la consola cuando se ejecuta el build.
 *   **Joel:** Ese icono Lambda indica que se esta generando una pagina dinamica, y la letra que le sigue es el hash de la pagina. que suele ser de la ruta o el componente que se esta generando. En nuestro caso indica que se esta generando el componente de menu dinamico que viene desde la data de la api, por lo tanto es un componente dinamico y no estatico. 
 
 ---
 
 ### 5. Si mañana el equipo quiere agregar una nueva ruta `/historial` que muestre pedidos por fecha, ¿qué archivos necesitan crear en `restaurante-nextjs/`?
-*   **Paolo:** 
+*   **Paolo:** Creamos la ruta con una carpeta y dentro su page, luego tenemos que traer los datos del back y filtrar por fecha, y luego mostrarlo en una tabla. Podria crear el historial de modo que al ingresar a la ruta especifica historial, al cargar, renderize los ultimos platos, para eso hariamos que la page sea server, luego dentro llame un mapeo que ordene los pedidos dentro de un archivo aparte llamado HistorialPage.tsx y al traerlo se les pase como prop el pedidoActivoId y los ordene
 *   **Joel:** Los archivos a crear serian /app/historial/page.tsx, el layout lo tomaria de la raiz de la aplicacion y tambien podriamos crear un layout propio para la ruta /historial.
 
 ---
