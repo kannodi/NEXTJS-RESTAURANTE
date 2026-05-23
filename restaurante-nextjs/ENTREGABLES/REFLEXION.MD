@@ -32,16 +32,17 @@
 ## ⏱️ Feedback 30 segundos — Bloque D
 
 ### ¿El build tuvo errores? ¿Cuáles y cómo los resolvieron?
-*   **Paolo:** 
-*   **Joel:** 
+*   **Paolo:** No hubieron errores, gracias al documento y a las busquedas de errores en compilacion
+*   **Joel:** El build no tuvo errores, compiló correctamente y generó la versión de producción sin necesidad de intervención ni de arreglar nada.
+
 
 ---
 
 ## ⏱️ Feedback 30 segundos — Bloque E
 
 ### ¿Cuántos errores TypeScript quedaban antes de este bloque? 
-*   **Paolo:** No hubieron errores, gracias al documento y a las busquedas de errores en compilacion
-*   **Joel:** El build no tuvo errores, compiló correctamente y generó la versión de producción sin necesidad de intervención ni de arreglar nada.
+*   **Paolo:** 
+*   **Joel:** 
 
 ---
 *Bitácora de reflexión técnica y aprendizaje continuo.*
