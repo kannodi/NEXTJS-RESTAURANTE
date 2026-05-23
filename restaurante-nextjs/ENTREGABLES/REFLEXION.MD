@@ -32,7 +32,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque D
 
 ### ¿El build tuvo errores? ¿Cuáles y cómo los resolvieron?
-*   **Paolo:** 
+*   **Paolo:** No hubieron errores, gracias al documento y a las busquedas de errores en compilacion
 *   **Joel:** 
 
 ---
