@@ -41,7 +41,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque E
 
 ### ¿Cuántos errores TypeScript quedaban antes de este bloque? 
-*   **Paolo:** 
+*   **Paolo:** Ninguno
 *   **Joel:** 
 
 ---
