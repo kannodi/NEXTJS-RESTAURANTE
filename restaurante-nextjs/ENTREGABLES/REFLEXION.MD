@@ -8,7 +8,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque A
 
 ### ¿Había algún .env commiteado? ¿Cómo lo resolvieron?
-*   **Paolo:** 
+*   **Paolo:** No ha habido ningun .env commiteado con aterioridad, en caso haya, se deberia borrar la rama para que este no siga en github
 *   **Joel:** 
 
 ---
