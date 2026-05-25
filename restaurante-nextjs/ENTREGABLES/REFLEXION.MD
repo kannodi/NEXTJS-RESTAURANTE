@@ -9,7 +9,7 @@
 
 ### ¿Había algún .env commiteado? ¿Cómo lo resolvieron?
 *   **Paolo:** No ha habido ningun .env commiteado con aterioridad, en caso haya, se deberia borrar la rama para que este no siga en github
-*   **Joel:** 
+*   **Joel:** El archivo .gitignore ya venía configurado de fábrica por Next.js para ignorar cualquier archivo .env, por lo que no hubo riesgo de que se subiera informacion sensible.
 
 ---
 
