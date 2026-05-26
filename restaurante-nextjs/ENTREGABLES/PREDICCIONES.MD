@@ -9,7 +9,9 @@
 
 ### ¿El primer deploy va a tener errores? ¿Por qué podría fallar si no hemos configurado las variables de entorno todavía?
 *   **¿El primer deploy fallará sin las variables de entorno?** 
+    **Paolo:** Si ya que faltara la parte del backend
 *   **¿Qué error específico aparecería?** 
+    **Paolo:** cuando iniciamos el run dev sin el back sale un error sobre el getplatos, saldra un error al hacer fetch
 
 ---
 
