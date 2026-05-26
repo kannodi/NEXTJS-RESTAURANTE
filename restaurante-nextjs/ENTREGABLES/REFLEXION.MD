@@ -17,7 +17,7 @@
 
 ### ¿El primer deploy falló como se predijo, o tuvo otro error?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** El 1er deply falló por la falta de .env
 
 ---
 
