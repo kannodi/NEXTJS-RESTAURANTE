@@ -21,8 +21,11 @@
 
 ### ¿Cuántos redeploys van a necesitar después de configurar las variables — uno o varios?
 *   **¿Cuántos redeploys necesita Vercel después de configurar variables?** 
+    **Paolo:** 
+    **Joel:** Solo se necesita un redeploy para que se reflejen los cambios en la app.
 *   **¿Vercel hace el redeploy automáticamente al agregar variables?** 
-
+    **Paolo:** 
+    **Joel:** No, los cambios no se reflejan automaticamente, se tiene que volver a ejecutar el comando de vercel para que se reflejen los cambios.
 ---
 
 ## ✍️ Predicción — Bloque D
