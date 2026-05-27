@@ -21,10 +21,10 @@
 
 ### ¿Cuántos redeploys van a necesitar después de configurar las variables — uno o varios?
 *   **¿Cuántos redeploys necesita Vercel después de configurar variables?** 
-    **Paolo:** 
+    **Paolo:** Una vez configurado el env para vercel, bastaria con un redeploy si esta bien apuntado la url del backend
     **Joel:** Solo se necesita un redeploy para que se reflejen los cambios en la app.
 *   **¿Vercel hace el redeploy automáticamente al agregar variables?** 
-    **Paolo:** 
+    **Paolo:** No se hace redeploy cuando se agregan variables, solo cuando hay cambios nuevos en el main del repo que apunta vercel
     **Joel:** No, los cambios no se reflejan automaticamente, se tiene que volver a ejecutar el comando de vercel para que se reflejen los cambios.
 ---
 
