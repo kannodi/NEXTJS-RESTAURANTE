@@ -21,14 +21,21 @@
 
 ### ¿Cuántos redeploys van a necesitar después de configurar las variables — uno o varios?
 *   **¿Cuántos redeploys necesita Vercel después de configurar variables?** 
+    **Paolo:** Una vez configurado el env para vercel, bastaria con un redeploy si esta bien apuntado la url del backend
+    **Joel:** Solo se necesita un redeploy para que se reflejen los cambios en la app.
 *   **¿Vercel hace el redeploy automáticamente al agregar variables?** 
-
+    **Paolo:** No se hace redeploy cuando se agregan variables, solo cuando hay cambios nuevos en el main del repo que apunta vercel
+    **Joel:** No, los cambios no se reflejan automaticamente, se tiene que volver a ejecutar el comando de vercel para que se reflejen los cambios.
 ---
 
 ## ✍️ Predicción — Bloque D
 
 ### ¿Las rutas dinámicas como `/mesa/[id]` van a funcionar en Vercel igual que en localhost? ¿O hay alguna diferencia en cómo Vercel maneja los parámetros?
 *   **¿`/mesa/[id]` funciona igual en Vercel?** 
+    **Paolo:** 
+    **Joel:** Si, funciona de la misma forma.
 *   **¿Hay alguna diferencia con localhost?** 
+    **Paolo:** 
+    **Joel:** No, funciona igual.
 
 ---

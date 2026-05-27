@@ -16,8 +16,8 @@
 ## ⏱️ Feedback 30 segundos — Bloque B
 
 ### ¿El primer deploy falló como se predijo, o tuvo otro error?
-*   **Paolo:** 
-*   **Joel:** 
+*   **Paolo:** El primer deploy falla, ya que la app busca el backend 
+*   **Joel:** El 1er deply falló por la falta de .env
 
 ---
 
@@ -25,7 +25,7 @@
 
 ### ¿El redeploy fue automático o tuvieron que triggerearlo manualmente?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** El redeploy tuvo que ser manual.
 
 ---
 
@@ -33,7 +33,7 @@
 
 ### ¿Qué ruta tuvo más problemas en producción? ¿Cómo lo resolvieron? (anota cuáles rutas tienen estado ERROR y la causa)
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** No hubo problemas con rutas dinamicas, funcionaron correctamente, al igual que en localhost.
 
 ---
 

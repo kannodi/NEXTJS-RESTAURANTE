@@ -26,3 +26,19 @@ Solución de gestión de restaurante que incluye un panel de comandas, catálogo
 
 ---
 *Bootcamp RPSoft — I-SALA1*
+
+
+# En el README.md en la raíz de I-SALA1/:
+
+# Sistema de Restaurante — RPSoft Bootcamp
+
+## 🚀 Deploy en producción
+
+**URL:** https://nextjs-restaurante-omega.vercel.app/
+
+**Estado:** ✅ Live — 26/05/2026
+
+## Proyectos
+
+### restaurante-nextjs (producción)
+# ... resto del README ...
