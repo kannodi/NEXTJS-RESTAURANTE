@@ -24,7 +24,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque C
 
 ### ¿El redeploy fue automático o tuvieron que triggerearlo manualmente?
-*   **Paolo:** 
+*   **Paolo:** Manualmente en el menu de vercel
 *   **Joel:** El redeploy tuvo que ser manual.
 
 ---
