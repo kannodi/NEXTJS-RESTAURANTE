@@ -32,7 +32,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque D
 
 ### ¿Qué ruta tuvo más problemas en producción? ¿Cómo lo resolvieron? (anota cuáles rutas tienen estado ERROR y la causa)
-*   **Paolo:** 
+*   **Paolo:** Las rutas estan bien en el deploy de vercel
 *   **Joel:** No hubo problemas con rutas dinamicas, funcionaron correctamente, al igual que en localhost.
 
 ---
