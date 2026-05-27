@@ -16,7 +16,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque B
 
 ### ¿El primer deploy falló como se predijo, o tuvo otro error?
-*   **Paolo:** 
+*   **Paolo:** El primer deploy falla, ya que la app busca el backend 
 *   **Joel:** El 1er deply falló por la falta de .env
 
 ---
