@@ -6,7 +6,7 @@ import './globals.css';
 import NavBar from './components/NavBar';
 import PedidoProvider from '@/src/context/PedidoProvider';
 
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
   title: {
     default: 'Sistema de Restaurante',
     template: '%s — Sistema de Restaurante',
@@ -29,6 +29,23 @@ export const metadata: Metadata = {
     title: 'Sistema de Restaurante',
     description: 'Panel de gestión de mesas, menú y comandas del restaurante.',
   },
+};*/
+
+export const metadata: Metadata = {
+  title: {
+    default: 'Sistema de Restaurante',
+    template: '%s — Sistema de Restaurante',
+  },
+  description: 'Panel de gestión de mesas, menú y comandas del restaurante.',
+  robots: { index: false, follow: false },
+  openGraph: {
+    title: 'Sistema de Restaurante',
+    description: 'Panel de gestión de mesas, menú y comandas del restaurante.',
+    type: 'website',
+    locale: 'es_PE',
+    url: 'https://nextjs-restaurante-omega.vercel.app/',  // URL real
+  },
+  twitter: { card: 'summary', title: 'Sistema de Restaurante', description: '...' },
 };
 
 
