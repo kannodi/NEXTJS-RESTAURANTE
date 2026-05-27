@@ -32,6 +32,10 @@
 
 ### ¿Las rutas dinámicas como `/mesa/[id]` van a funcionar en Vercel igual que en localhost? ¿O hay alguna diferencia en cómo Vercel maneja los parámetros?
 *   **¿`/mesa/[id]` funciona igual en Vercel?** 
+    **Paolo:** 
+    **Joel:** Si, funciona de la misma forma.
 *   **¿Hay alguna diferencia con localhost?** 
+    **Paolo:** 
+    **Joel:** No, funciona igual.
 
 ---

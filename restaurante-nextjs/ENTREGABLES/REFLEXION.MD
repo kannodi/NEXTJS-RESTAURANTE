@@ -25,7 +25,7 @@
 
 ### ¿El redeploy fue automático o tuvieron que triggerearlo manualmente?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** El redeploy tuvo que ser manual.
 
 ---
 
@@ -33,7 +33,7 @@
 
 ### ¿Qué ruta tuvo más problemas en producción? ¿Cómo lo resolvieron? (anota cuáles rutas tienen estado ERROR y la causa)
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** No hubo problemas con rutas dinamicas, funcionaron correctamente, al igual que en localhost.
 
 ---
 
