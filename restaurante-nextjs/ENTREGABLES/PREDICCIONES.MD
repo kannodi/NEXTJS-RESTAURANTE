@@ -32,10 +32,10 @@
 
 ### ¿Las rutas dinámicas como `/mesa/[id]` van a funcionar en Vercel igual que en localhost? ¿O hay alguna diferencia en cómo Vercel maneja los parámetros?
 *   **¿`/mesa/[id]` funciona igual en Vercel?** 
-    **Paolo:** 
+    **Paolo:** Si, a comparacion de localhost, se reemplazara por el nombre de dominio que nos da vercel y luego del dominio el "/" seguido de la ruta donde queramos ir
     **Joel:** Si, funciona de la misma forma.
 *   **¿Hay alguna diferencia con localhost?** 
-    **Paolo:** 
+    **Paolo:** Solo el nombre de localhost pasara a ser el nombre de dominio de vercel
     **Joel:** No, funciona igual.
 
 ---

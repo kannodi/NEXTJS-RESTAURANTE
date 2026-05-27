@@ -24,7 +24,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque C
 
 ### ¿El redeploy fue automático o tuvieron que triggerearlo manualmente?
-*   **Paolo:** 
+*   **Paolo:** Manualmente en el menu de vercel
 *   **Joel:** El redeploy tuvo que ser manual.
 
 ---
@@ -32,7 +32,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque D
 
 ### ¿Qué ruta tuvo más problemas en producción? ¿Cómo lo resolvieron? (anota cuáles rutas tienen estado ERROR y la causa)
-*   **Paolo:** 
+*   **Paolo:** Las rutas estan bien en el deploy de vercel
 *   **Joel:** No hubo problemas con rutas dinamicas, funcionaron correctamente, al igual que en localhost.
 
 ---
@@ -40,7 +40,7 @@
 ## ⏱️ Feedback 30 segundos — Bloque E
 
 ### ¿El push del README activó automáticamente un nuevo deploy en Vercel? ¿Tardó más o menos que los anteriores?
-*   **Paolo:** 
-*   **Joel:** 
+*   **Paolo:** Si ya que detecta cambios en el repo, pero dado que maneja cache de la build anterior su iniciacion fue mas rapida
+*   **Joel:** Sí, se activó un nuevo deploy automáticamente. Sin embargo, este deploy tardó mucho menos que el primero porque Vercel usó la caché del build anterior (ya que solo fue un cambio de texto y no de código o dependencias).
 
 ---
