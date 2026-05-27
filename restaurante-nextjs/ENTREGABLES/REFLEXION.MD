@@ -41,6 +41,6 @@
 
 ### ¿El push del README activó automáticamente un nuevo deploy en Vercel? ¿Tardó más o menos que los anteriores?
 *   **Paolo:** 
-*   **Joel:** 
+*   **Joel:** Sí, se activó un nuevo deploy automáticamente. Sin embargo, este deploy tardó mucho menos que el primero porque Vercel usó la caché del build anterior (ya que solo fue un cambio de texto y no de código o dependencias).
 
 ---
