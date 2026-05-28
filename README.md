@@ -1,8 +1,16 @@
-# 🍽️ Sistema de Restaurante — I-SALA1
+
+# Sistema de Restaurante — RPSoft Bootcamp
+
+## 🚀 Deploy en producción
+
+**URL:** https://nextjs-restaurante-omega.vercel.app/
+
+**Estado:** ✅ Live — 28/05/2026
+
+
 
 Solución de gestión de restaurante que incluye un panel de comandas, catálogo de menú con carrito reactivo y control de mesas.
 
-## 🚀 Proyectos
 
 ### ⚡ restaurante-nextjs (Producción)
 * **Stack**: Next.js 15 · TypeScript · Tailwind CSS
@@ -13,7 +21,7 @@ Solución de gestión de restaurante que incluye un panel de comandas, catálogo
   npm run dev
   ```
 * **Variables de entorno (.env.local)**:
-  `NEXT_PUBLIC_API_URL=http://localhost:3001`
+  `NEXT_PUBLIC_API_URL=https://restaurante-backend-production-6bd8.up.railway.app/api`
 
 ### ⚛️ FRONTEND (React — Referencia)
 * **Stack**: React 18 · TypeScript · Vite
@@ -25,20 +33,5 @@ Solución de gestión de restaurante que incluye un panel de comandas, catálogo
   ```
 
 ---
-*Bootcamp RPSoft — I-SALA1*
+*Bootcamp RPSoft — I-SALA5*
 
-
-# En el README.md en la raíz de I-SALA1/:
-
-# Sistema de Restaurante — RPSoft Bootcamp
-
-## 🚀 Deploy en producción
-
-**URL:** https://nextjs-restaurante-omega.vercel.app/
-
-**Estado:** ✅ Live — 26/05/2026
-
-## Proyectos
-
-### restaurante-nextjs (producción)
-# ... resto del README ...
