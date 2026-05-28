@@ -8,33 +8,33 @@
 ### 🧠 Autoevaluación
 
 #### 1. URL de Vercel del proyecto (compartir para que el director pueda verificar):
-*   **Paolo:** 
+*   **Paolo:** https://nextjs-restaurante-omega.vercel.app/comandas
 *   **Joel:** 
 
 ---
 
 #### 2. ¿El deploy tuvo algún problema inesperado? ¿Cuál fue la solución?
-*   **Paolo:** 
+*   **Paolo:** Solo el problema del back, debe estar encendido para iniciarse bien
 *   **Joel:** 
 
 ---
 
 #### 3. De los 7 días de Next.js — ¿cuál fue el día más difícil? ¿Y el más satisfactorio?
-*   **Paolo:** 
+*   **Paolo:**  El que mas se me complico fueron las actions, el mas satisfactorio fue el despliegue de vercel a internet
 *   **Joel:** 
 
 ---
 
 #### 4. ¿Están listos para el siguiente sprint? ¿Cuál es?
-*   **Paolo:** 
+*   **Paolo:** Sii, El siguiente es el SAID
 *   **Joel:** 
 
 #### 5. Calificación general de la actividad (1-5):
-*   **Paolo:** 
+*   **Paolo:** 5
 *   **Joel:** 
 
 #### 6. Una sugerencia para mejorar los 7 días de Next.js:
-*   **Paolo:** 
+*   **Paolo:** Dar explicacion de codigo detallado y especificar que se necesitara mas adelante, tambien mejorar la estructura del proyecto, hubo un dia el cual, por ejemplo: en el bloque c nos pidieron en criterio algo del bloque d
 *   **Joel:** 
 
 ---
