@@ -4,7 +4,7 @@ curso: Next.js
 dia: 7
 estado: en_progreso
 vercel_url: (agregar URL después del deploy)
-loom: (agregar link al terminar)
+loom: https://www.loom.com/share/c826c15e28474daba4b974700dd191b0
 ---
 
 ## Bloques
