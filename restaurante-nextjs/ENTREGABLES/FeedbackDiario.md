@@ -7,25 +7,33 @@
 
 ### 🧠 Autoevaluación
 
-#### 1. [Ingresar pregunta o tema de evaluación 1]
+#### 1. URL de Vercel del proyecto (compartir para que el director pueda verificar):
 *   **Paolo:** 
 *   **Joel:** 
 
 ---
 
-#### 2. [Ingresar pregunta o tema de evaluación 2]
+#### 2. ¿El deploy tuvo algún problema inesperado? ¿Cuál fue la solución?
 *   **Paolo:** 
 *   **Joel:** 
 
 ---
 
-#### 3. [Ingresar pregunta o tema de evaluación 3]
+#### 3. De los 7 días de Next.js — ¿cuál fue el día más difícil? ¿Y el más satisfactorio?
 *   **Paolo:** 
 *   **Joel:** 
 
 ---
 
-#### 4. ¿El tiempo fue suficiente para los bloques?
+#### 4. ¿Están listos para el siguiente sprint? ¿Cuál es?
+*   **Paolo:** 
+*   **Joel:** 
+
+#### 5. Calificación general de la actividad (1-5):
+*   **Paolo:** 
+*   **Joel:** 
+
+#### 6. Una sugerencia para mejorar los 7 días de Next.js:
 *   **Paolo:** 
 *   **Joel:** 
 
